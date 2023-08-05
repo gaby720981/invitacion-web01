@@ -142,6 +142,11 @@ button:hover {
   font-family: Romantic Couple;
 }
 
+@font-face {
+  font-family: "Romantic Couple";
+  src: url("./fonts/Romantic-Couple.ttf") format("truetype");
+}
+
 #backgroundMusic {
   display: none;
 }
