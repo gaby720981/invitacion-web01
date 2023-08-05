@@ -1,0 +1,148 @@
+:root {
+	--color-primario: #486076;
+	--color-secundario:  #c0802a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  background-image: url(./img/fondo1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(177, 164, 164);
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos, .despedida{
+  padding: 0.5vw;
+  margin-top: 20vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contador {
+  display: block;
+  position: relative;
+  padding-bottom: 10%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tickcounter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.texto1, .texto2, .textov1, .textov2, .despedida {
+  color: var(--color-secundario);
+  font-family: EBGaramond;
+}
+
+.texto1 {
+   font-size: 10vw;
+}
+
+.texto2 {
+  font-size: 6vw;
+}
+
+.textov1 {
+  font-size: 5vw;
+}
+
+.textov2 {
+  font-size: 5.2vw;
+}
+
+.caja img {
+  width: 25vw;
+  height: 25vw;
+  margin-bottom: 5vw;
+}
+
+.cajains img {
+  width: 12vw;
+  height: 12vw;
+  margin-top: 5vw;
+}
+
+
+.numero {
+  color: var(--color-secundario);
+  display: flex;
+  align-items: center;
+  font-size: 5vw;
+}
+
+.rsvp {
+  margin: 0 3vw;
+  width: 5vw;
+}
+
+button {
+  font-family: EBGaramond;
+  background-color: var(--color-primario);
+  color: #ffffff;
+  margin-top: 8vw;
+  padding: 1.25vw 4.5vw;
+  font-size: 5vw;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--color-secundario);
+  color: #ffffff;
+}
+
+.despedida {
+  color: var(--color-secundario);
+  font-size: 15vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Romantic Couple;
+}
+
+#backgroundMusic {
+  display: none;
+}
