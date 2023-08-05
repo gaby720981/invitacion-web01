@@ -118,7 +118,7 @@ video {
 }
 
 button {
-  font-family: EBGaramond;
+  font-family: "EB Garamond";
   background-color: var(--color-primario);
   color: #ffffff;
   margin-top: 8vw;
@@ -145,7 +145,7 @@ button:hover {
 @font-face {
   font-family: "EB Garamond", "Romantic Couple";
   src: url("./fonts/EBGaramond.ttf") format("truetype"),
-        url("./fonts/Romantic-Couple.ttf") format("truetype");
+       url("./fonts/Romantic-Couple.ttf") format("truetype");
 }
   
 #backgroundMusic {
