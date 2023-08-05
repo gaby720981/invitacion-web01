@@ -73,7 +73,7 @@ video {
 
 .texto1, .texto2, .textov1, .textov2, .despedida {
   color: var(--color-secundario);
-  font-family: EB Garamond;
+  font-family: "EB Garamond";
 }
 
 .texto1 {
@@ -139,7 +139,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Romantic Couple;
+  font-family: "Romantic Couple";
 }
 
 @font-face {
