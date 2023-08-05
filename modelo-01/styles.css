@@ -142,13 +142,12 @@ button:hover {
   font-family: Romantic Couple;
 }
 
-  @font-face {
-    font-family: "EB Garamond", "Romantic Couple";
-    src: url("./fonts/EBGaramond.ttf") format("truetype"),
-         url("./fonts/Romantic-Couple.ttf") format("truetype");
-  }
+@font-face {
+  font-family: "EB Garamond", "Romantic Couple";
+  src: url("./fonts/EBGaramond.ttf") format("truetype"),
+        url("./fonts/Romantic-Couple.ttf") format("truetype");
+}
   
-
 #backgroundMusic {
   display: none;
 }
