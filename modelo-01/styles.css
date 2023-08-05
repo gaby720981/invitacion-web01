@@ -36,7 +36,6 @@ video {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color: rgb(177, 164, 164);
   position: relative;
   z-index: 1;
 }
