@@ -158,4 +158,15 @@ button:hover {
     src: url("./fonts/EBGaramond.ttf") format("truetype"),
          url("./fonts/Romantic-Couple.ttf") format("truetype");
   }
+
+  .despedida {
+    color: var(--color-secundario);
+    font-size: 15vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Romantic Couple";
+  }
+  
 }
