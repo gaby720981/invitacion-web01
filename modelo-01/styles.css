@@ -144,29 +144,11 @@ button:hover {
 
 @font-face {
   font-family: "EB Garamond", "Romantic Couple";
-  src: url("./fonts/EBGaramond.ttf") format("truetype"),
-       url("./fonts/Romantic-Couple.ttf") format("truetype");
+  src: url("./fonts/EBGaramond.ttf") format("ttf"),
+       url("./fonts/Romantic-Couple.ttf") format("ttf");
 }
   
 #backgroundMusic {
   display: none;
 }
 
-@media (max-width: 600px) {
-  @font-face {
-    font-family: "EB Garamond", "Romantic Couple";
-    src: url("./fonts/EBGaramond.ttf") format("truetype"),
-         url("./fonts/Romantic-Couple.ttf") format("truetype");
-  }
-
-  .despedida {
-    color: var(--color-secundario);
-    font-size: 15vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Romantic Couple";
-  }
-  
-}
