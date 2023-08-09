@@ -3,6 +3,12 @@
 	--color-secundario:  #c0802a;
 }
 
+@font-face {
+  font-family: "EB Garamond", "Romantic Couple";
+  src: url("./fonts/EBGaramond.ttf") format("ttf"),
+       url("./fonts/Romantic-Couple.ttf") format("ttf");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -141,12 +147,6 @@ button:hover {
   justify-content: center;
   font-family: Romantic Couple;
 }
-
-@font-face {
-  font-family: "EB Garamond", "Romantic Couple";
-  src: url("./fonts/EBGaramond.ttf") format("ttf"),
-       url("./fonts/Romantic-Couple.ttf") format("ttf");
-}
   
 #backgroundMusic {
   display: none;
@@ -202,5 +202,8 @@ button {
 
 .contador {
   width: 50%;
+}
+.despedida {
+  font-size: 8vw;
 }
 }
