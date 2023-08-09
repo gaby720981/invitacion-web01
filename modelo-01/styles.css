@@ -53,6 +53,8 @@ video {
   margin-top: 20vw;
   margin-left: 0;
   margin-right: 0;
+  align-items: center;
+  text-align: center;
 }
 
 .contador {
@@ -107,13 +109,11 @@ video {
 
 .numero {
   color: var(--color-secundario);
-  display: flex;
-  align-items: center;
+  display: block;
   font-size: 5vw;
 }
 
 .rsvp {
-  margin: 0 3vw;
   width: 5vw;
 }
 
@@ -121,8 +121,8 @@ button {
   font-family: "EB Garamond";
   background-color: var(--color-primario);
   color: #ffffff;
-  margin-top: 8vw;
-  padding: 1.25vw 4.5vw;
+  margin-top: 7vw;
+  padding: 1.25vw 4vw;
   font-size: 5vw;
   border: none;
 }
@@ -134,7 +134,7 @@ button:hover {
 
 .despedida {
   color: var(--color-secundario);
-  font-size: 15vw;
+  font-size: 19vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -152,3 +152,56 @@ button:hover {
   display: none;
 }
 
+@media (min-width: 1500px) {
+  .container {
+    width: 90%;
+    height: 50%;
+  }
+  .texto1 {
+    font-size: 7vw;
+ }
+ 
+ .texto2 {
+   font-size: 4vw;
+ }
+ 
+ .textov1 {
+   font-size: 3vw;
+ }
+ 
+ .textov2 {
+   font-size: 4vw;
+ }
+ .caja img {
+  width: 15vw;
+  height: 15vw;
+  margin-bottom: 3vw;
+}
+
+.cajains img {
+  width: 5vw;
+  height: 5vw;
+  margin-top: 5vw;
+}
+
+
+.numero {
+  color: var(--color-secundario);
+  display: block;
+  font-size: 3vw;
+}
+
+.rsvp {
+  width: 3vw;
+}
+ 
+button {
+  font-size: 3vw;
+  padding: 0.5vw 2vw;
+  margin-top: 4vw;
+}
+
+.contador {
+  width: 50%;
+}
+}
