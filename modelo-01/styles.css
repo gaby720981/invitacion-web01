@@ -54,7 +54,7 @@ video {
   text-align: center;
 }
 
-.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos, .despedida{
+.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos{
   padding: 0.5vw;
   margin-top: 20vw;
   margin-left: 0;
@@ -79,7 +79,7 @@ video {
   height: 100%;
 }
 
-.texto1, .texto2, .textov1, .textov2 {
+.texto1, .texto2, .textov1, .textov2, .numero {
   color: var(--color-secundario);
   font-family: "EB Garamond";
 }
