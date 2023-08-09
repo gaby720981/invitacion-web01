@@ -52,6 +52,7 @@ video {
   justify-content: center;
   align-content: center;
   text-align: center;
+  /* width: 60%; */
 }
 
 .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos{
