@@ -6,7 +6,7 @@
 @font-face {
   font-family: "EB Garamond", "Romantic Couple";
   src: url("./fonts/EBGaramond.woff2") format("woff2"),
-       url("./fonts/Romantic-Couple.ttf") format("ttf");
+       url("./fonts/Romantic-Couple.woff2") format("woff2");
 }
 
 * {
@@ -79,7 +79,7 @@ video {
   height: 100%;
 }
 
-.texto1, .texto2, .textov1, .textov2, .despedida {
+.texto1, .texto2, .textov1, .textov2 {
   color: var(--color-secundario);
   font-family: "EB Garamond";
 }
@@ -145,7 +145,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Romantic Couple;
+  font-family: "Romantic Couple";
 }
   
 #backgroundMusic {
