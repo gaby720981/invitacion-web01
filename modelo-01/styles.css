@@ -139,7 +139,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Romantic Couple";
+  font-family: Romantic Couple;
 }
 
 @font-face {
@@ -159,15 +159,15 @@ button:hover {
   }
   .texto1 {
     font-size: 7vw;
- }
+  }
  
  .texto2 {
    font-size: 4vw;
- }
+  }
  
  .textov1 {
    font-size: 3vw;
- }
+  }
  
  .textov2 {
    font-size: 4vw;
@@ -183,7 +183,6 @@ button:hover {
   height: 5vw;
   margin-top: 5vw;
 }
-
 
 .numero {
   color: var(--color-secundario);
