@@ -121,6 +121,7 @@ video {
 
 .rsvp {
   width: 5vw;
+  margin: 0, 5vw;
 }
 
 button {
@@ -154,7 +155,7 @@ button:hover {
 
 @media (min-width: 1500px) {
   .container {
-    width: 90%;
+    width: 70%;
     height: 50%;
   }
   .texto1 {
@@ -173,8 +174,8 @@ button:hover {
    font-size: 4vw;
  }
  .caja img {
-  width: 15vw;
-  height: 15vw;
+  width: 10vw;
+  height: 10vw;
   margin-bottom: 3vw;
 }
 
