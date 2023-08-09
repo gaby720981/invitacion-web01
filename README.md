@@ -1,6 +1,6 @@
 # invitaciones-web
 
-Este es un proyecto personal dedicado a la creación de invitaciones web interactivas.
+Este es un proyecto en colacoración con un Graphic Desinger dedicado a la creación de invitaciones web interactivas.
 
 # Construido con:
 HTML, CSS, BOOTSTRAP, ScrollReveal, JS
