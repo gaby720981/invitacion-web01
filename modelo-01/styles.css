@@ -150,7 +150,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Romantic Couple";
+  font-family: Romantic Couple;
 }
   
 #backgroundMusic {
@@ -176,39 +176,41 @@ button:hover {
  
  .textov2 {
    font-size: 4vw;
- }
- .caja img {
-  width: 10vw;
-  height: 10vw;
-  margin-bottom: 3vw;
-}
-
-.cajains img {
-  width: 5vw;
-  height: 5vw;
-  margin-top: 5vw;
-}
-
-.numero {
-  color: var(--color-secundario);
-  display: block;
-  font-size: 3vw;
-}
-
-.rsvp {
-  width: 3vw;
-}
- 
-button {
-  font-size: 3vw;
-  padding: 0.5vw 2vw;
-  margin-top: 4vw;
-}
-
-.contador {
-  width: 70%;
-}
-.despedida {
-  font-size: 8vw;
-}
+  }
+  
+  .caja img {
+    width: 10vw;
+    height: 10vw;
+    margin-bottom: 3vw;
+  }
+  
+  .cajains img {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 5vw;
+  }
+  
+  .numero {
+    color: var(--color-secundario);
+    display: block;
+    font-size: 3vw;
+  }
+  
+  .rsvp {
+    width: 3vw;
+  }
+  
+  button {
+    font-size: 3vw;
+    padding: 0.5vw 2vw;
+    margin-top: 4vw;
+  }
+  
+  .contador {
+    width: 70%;
+  }
+  
+  .despedida {
+    font-size: 8vw;
+  }
 }
