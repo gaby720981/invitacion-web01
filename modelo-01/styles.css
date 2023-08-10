@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: "EB Garamond", "Romantic Couple";
-  src: url("./fonts/EBGaramond.woff2") format("woff2"),
-       url("./fonts/Romantic-Couple.woff2") format("woff2");
+  src: url("/fonts/EBGaramond.woff2") format("woff2"),
+       url("/fonts/Romantic-Couple.woff2") format("woff2");
 }
 
 * {
