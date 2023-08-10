@@ -38,7 +38,7 @@ video {
 }
 
 .content {
-  background-image: url(./img/fondo1.png);
+  /* background-image: url(./img/fondo1.png); */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
