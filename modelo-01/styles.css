@@ -4,12 +4,13 @@
 }
 
 @font-face {
-  font-family: "EB Garamond", "Romantic Couple";
-  src: 
-  local("EB Garamond"),
-  url("./fonts/EBGaramond.woff2") format("woff2"),
-  local("Romantic Couple"),
-  url("./fonts/Romantic-Couple.woff2") format("woff2");
+  font-family: "EB Garamond";
+  src: local("EB Garamond"), url("./fonts/EBGaramond.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Romantic Couple";
+  src: local("Romantic Couple"), url("./fonts/Romantic-Couple.woff2") format("woff2");
 }
 
 * {
@@ -102,6 +103,7 @@ video {
 
 .textov2 {
   font-size: 5.2vw;
+  line-height: 1;
 }
 
 .caja img {
