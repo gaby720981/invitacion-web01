@@ -122,7 +122,7 @@ video {
 .numero {
   color: var(--color-secundario);
   display: block;
-  font-size: 5vw;
+  font-size: 4vw;
   padding-top: 1vw;
 }
 
@@ -171,6 +171,7 @@ button:hover {
  
  .texto2 {
    font-size: 4vw;
+   margin-bottom: 2.5vw;
   }
  
  .textov1 {
@@ -178,7 +179,7 @@ button:hover {
   }
  
  .textov2 {
-   font-size: 4vw;
+   font-size: 2vw;
   }
   
   .caja img {
@@ -196,17 +197,17 @@ button:hover {
   .numero {
     color: var(--color-secundario);
     display: block;
-    font-size: 3vw;
+    font-size: 1.5vw;
   }
   
   .rsvp {
-    width: 3vw;
+    width: 1.2vw;
   }
   
   button {
-    font-size: 3vw;
+    font-size: 1.5vw;
     padding: 0.5vw 2vw;
-    margin-top: 4vw;
+    margin-top: 3vw;
   }
   
   .contador {
