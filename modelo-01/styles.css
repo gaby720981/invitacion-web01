@@ -123,6 +123,7 @@ video {
   color: var(--color-secundario);
   display: block;
   font-size: 5vw;
+  padding-top: 1vw;
 }
 
 .rsvp {
