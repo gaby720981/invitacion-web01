@@ -122,8 +122,9 @@ video {
 .numero {
   color: var(--color-secundario);
   display: block;
-  font-size: 4vw;
+  font-size: 4.2vw;
   padding-top: 1vw;
+  
 }
 
 .rsvp {
@@ -162,11 +163,11 @@ button:hover {
 
 @media (min-width: 1500px) {
   .container {
-    width: 60%;
-    height: 50%;
+    width: 70%;
+    
   }
   .texto1 {
-    font-size: 7vw;
+    font-size: 4.5vw;
   }
  
  .texto2 {
@@ -207,11 +208,11 @@ button:hover {
   button {
     font-size: 1.5vw;
     padding: 0.5vw 2vw;
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
   
   .contador {
-    width: 70%;
+    width: 60%;
   }
   
   .despedida {
