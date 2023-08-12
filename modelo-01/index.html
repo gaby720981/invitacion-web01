@@ -16,7 +16,13 @@
     </header>
     <div class="content">
       <div class="container">
-  
+
+        <audio id="backgroundMusic" autoplay loop>
+          <source src="audio/cancion-fondo.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="playButton">Reproducir Música</button>
+        
         <div class="dia">
           <p class="texto1">DÍA</p>
           <p class="texto2"> SÁBADO 26 DE AGOSTO DE 2023</p>
@@ -93,10 +99,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="js/scrollreveal.js"></script>
     <script src="js/index.js"></script>
-    <!-- <audio id="backgroundMusic" loop>
-      <source src="audio/cancion-fondo.mp3" type="audio/mpeg">
-    </audio> -->
+    
     <!-- <bgsound src="audio/cancion-fondo.mp3" loop="1"> -->
-    <embed id="backgroundMusic" src="./audio/cancion-fondo.mp3" type="" autostart="true" loop="true">
+    <!-- <embed id="backgroundMusic" src="./audio/cancion-fondo.mp3" type="mp3" autostart="false" loop="true"> -->
   </body>
 </html>
