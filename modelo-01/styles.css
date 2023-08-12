@@ -122,15 +122,17 @@ video {
 
 .numero {
   color: var(--color-secundario);
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4.2vw;
   padding-top: 1vw;
-  
 }
 
 .rsvp {
-  width: 5vw;
-  margin: 0, 5vw;
+  width: 5.5vw;
+  margin-left: 10px;
+  margin: 0 2px;
 }
 
 button {
