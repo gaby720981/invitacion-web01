@@ -224,20 +224,21 @@ button:hover {
   .numero {
     color: var(--color-secundario);
     display: flex;
-    font-size: 1.5vw;
-    align-items: center;
     flex-direction: row;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .numero p {
     margin: 0;
     padding: 0;
   }
   
   .rsvp-img {
-    width: 1.2vw;
-    height: 1.2vw;
-    margin-right: 10px;
+    width: 1.8vw;
+    height: 1.8vw;
+    margin: 0 20px;
   }
   
   button {
