@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "EB Garamond";
-  src: url(./fonts/EBGaramond.woff2) format("woff2");
+  src: url('./fonts/EBGaramond-VariableFont_wght.woff');
 }
 
 @font-face {
   font-family: "Romantic Couple";
-  src: url(./fonts/Romantic-Couple.woff2) format("woff2");
+  src: url('./fonts/Romantic-Couple.woff');
 }
 
 * {
