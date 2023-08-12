@@ -121,14 +121,22 @@ video {
 
 .numero {
   color: var(--color-secundario);
-  display: block;
-  font-size: 4.2vw;
-  padding-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  font-size: 4.5vw;
+  justify-content: center;
+  align-items: center;
 }
 
-.rsvp {
-  width: 5.5vw;
-  /*darle margen entre texto y texto*/
+.numero p {
+  margin: 0;
+  padding: 0;
+}
+
+.rsvp-img {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 18px;
 }
 
 button {
@@ -179,7 +187,7 @@ button:hover {
   display: none;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 800px) {
   .container {
     width: 70%;
     
@@ -215,12 +223,21 @@ button:hover {
   
   .numero {
     color: var(--color-secundario);
-    display: block;
+    display: flex;
     font-size: 1.5vw;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .numero p {
+    margin: 0;
+    padding: 0;
   }
   
-  .rsvp {
+  .rsvp-img {
     width: 1.2vw;
+    height: 1.2vw;
+    margin-right: 10px;
   }
   
   button {
