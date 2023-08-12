@@ -6,9 +6,6 @@ window.sr = ScrollReveal();
     distance: '50px' 
 });
 
-function PlayAudio() {
-    document.getElementById("backgroundMusic").play();
-}
 
 
   
