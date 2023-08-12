@@ -121,17 +121,14 @@ video {
 
 .numero {
   color: var(--color-secundario);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   font-size: 4.2vw;
   padding-top: 1vw;
 }
 
 .rsvp {
   width: 5.5vw;
-  margin-left: 10px;
-  margin: 0 2px;
+  /*darle margen entre texto y texto*/
 }
 
 button {
