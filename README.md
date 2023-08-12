@@ -1,9 +1,9 @@
-# invitaciones-web
+# web-invitations
 
-Este es un proyecto en colacoración con un Graphic Desinger dedicado a la creación de invitaciones web interactivas.
+This is a project in collaboration with a Graphic Desinger dedicated to the creation of interactive web invitations.
 
-# Construido con:
-HTML, CSS, BOOTSTRAP, ScrollReveal, JS
+# Built with:
+HTML, CSS, BOOTSTRAP, ScrollReveal, JS.
 
-# Contacto
-Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en contactarme a través de mi dirección de correo electrónico: gaby_ag@live.com.ar
+# Contact us
+If you have any questions or suggestions about this project, feel free to contact me through my email address: gaby_ag@live.com.ar
