@@ -57,10 +57,9 @@ video {
   justify-content: center;
   align-content: center;
   text-align: center;
-  /* width: 60%; */
 }
 
-.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos{
+.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos {
   padding: 0.5vw;
   margin-top: 20vw;
   margin-left: 0;
@@ -144,7 +143,6 @@ button {
   font-size: 5vw;
   border: none;
 }
-
 
 button:hover {
   background-color: var(--color-secundario);
