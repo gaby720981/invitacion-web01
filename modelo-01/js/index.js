@@ -6,6 +6,17 @@ window.sr = ScrollReveal();
     distance: '50px' 
 });
 
+const backgroundMusic = document.getElementById('backgroundMusic');
+const playButton = document.getElementById('playButton');
+
+playButton.addEventListener('click', () => {
+  backgroundMusic.play();
+  playButton.disabled = true; // Deshabilitar el botón al hacer clic en él
+});
+
+backgroundMusic.addEventListener('ended', () => {
+  playButton.disabled = false; // Habilitar el botón cuando la música termine de reproducirse
+});
 
 
   
