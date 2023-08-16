@@ -1,9 +1,14 @@
 window.sr = ScrollReveal();
 
- sr.reveal('.frase, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos, .despedida', {
-    duration: 4000,
+ sr.reveal('.frase, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos', {
+    duration: 1500,
     origin: 'bottom', // Animación desde abajo
-    distance: '50px' 
+    distance: '80px' 
+});
+sr.reveal('.despedida', {
+  duration: 5000,
+  origin: 'bottom', // Animación desde abajo
+  distance: '100px' 
 });
 
 const backgroundMusic = document.getElementById('backgroundMusic');
