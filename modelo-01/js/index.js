@@ -13,22 +13,23 @@ sr.reveal('.despedida', {
 
 const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
+let isMusicPlaying = false;
 
 playButton.addEventListener('click', () => {
-  backgroundMusic.play();
-  playButton.disabled = true; // Deshabilitar el botón al hacer clic en él
+  if (isMusicPlaying) {
+    backgroundMusic.pause(); // Pausar la música
+  } else {
+    backgroundMusic.play(); // Iniciar la reproducción
+  }
+  isMusicPlaying = !isMusicPlaying; // Alternar entre reproducción y pausa
+  updatePlayButtonState();
 });
 
 backgroundMusic.addEventListener('ended', () => {
-  playButton.disabled = false; // Habilitar el botón cuando la música termine de reproducirse
+  isMusicPlaying = false;
+  updatePlayButtonState();
 });
 
-
-  
-  
-  
-  
-  
-  
-  
-  
+function updatePlayButtonState() {
+  playButton.textContent = isMusicPlaying ? 'Pause' : 'Play';
+}
