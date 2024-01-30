@@ -42,8 +42,8 @@ video {
 }
 
 .content {
-  /* background-image: url(./img/fondo1.png); */
-  background-color: #ffffff;
+  background-image: url(./img/fondophono.png);
+  background-color: #ede9e5;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -187,12 +187,18 @@ button:hover {
 #backgroundMusic {
   display: none;
 }
+ /*pc*/
 
 @media (min-width: 1200px) {
   .container {
     width: 70%;
-    
+    background-image: url(./img/fondopc.png);
   }
+
+  header{
+  background-image:url(./video/fondopc.mp4);
+  }
+
   .texto1 {
     font-size: 4.5vw;
   }
