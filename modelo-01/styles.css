@@ -147,6 +147,7 @@ button {
   padding: 1.25vw 4vw;
   font-size: 5vw;
   border: none;
+  border-radius: 50px;
 }
 
 button:hover {
@@ -189,7 +190,7 @@ button:hover {
 
 @media (max-width: 1200px) {
   .desktop-video {
-    display: none; /* Oculta el video para dispositivos de escritorio */
+    display: none;
   }
 }
 
@@ -198,7 +199,7 @@ button:hover {
 @media (min-width: 1200px) {
 
   .mobile-video {
-    display: none; /* Oculta el video para dispositivos móviles */
+    display: none;
   }
 
   header {
