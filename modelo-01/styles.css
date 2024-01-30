@@ -28,7 +28,6 @@ header {
   position: relative;
   height: 100vh;
   overflow: hidden;
-  
 }
 
 video {
@@ -42,7 +41,7 @@ video {
 }
 
 .content {
-  background-image: url(./img/fondophono.png);
+  background-image: url(./img/mobile.png);
   background-color: #ede9e5;
   background-size: cover;
   background-attachment: fixed;
@@ -187,16 +186,31 @@ button:hover {
 #backgroundMusic {
   display: none;
 }
- /*pc*/
+
+@media (max-width: 1200px) {
+  .desktop-video {
+    display: none; /* Oculta el video para dispositivos de escritorio */
+  }
+}
+
+ /*desktop*/
 
 @media (min-width: 1200px) {
-  .container {
-    width: 70%;
-    background-image: url(./img/fondopc.png);
+
+  .mobile-video {
+    display: none; /* Oculta el video para dispositivos móviles */
   }
 
-  header{
-  background-image:url(./video/fondopc.mp4);
+  header {
+    background: url(./video/desktop.mp4) no-repeat;
+  }
+
+  .content {
+    background-image: url(./img/desktop.png);
+  }
+
+  .container {
+    width: 70%;
   }
 
   .texto1 {
