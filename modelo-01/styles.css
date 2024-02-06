@@ -150,10 +150,11 @@ button {
   border-radius: 50px;
 }
 
-button:hover {
+button.clicked {
   background-color: var(--color-secundario);
   color: #ffffff;
 }
+
 
 .floating-button {
   position: fixed;
@@ -213,6 +214,11 @@ button:hover {
   .container {
     width: 70%;
   }
+
+  button:hover{
+  background-color: var(--color-secundario);
+  color: #ffffff;
+}
 
   .texto1 {
     font-size: 4.5vw;

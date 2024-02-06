@@ -38,3 +38,18 @@ function updatePlayButtonState() {
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
   playIcon.style.color = '#ffffff'; 
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function () {
+      this.classList.toggle('clicked');
+    });
+  });
+});
+
+
+
+
