@@ -17,11 +17,11 @@ let isMusicPlaying = false;
 
 playButton.addEventListener('click', () => {
   if (isMusicPlaying) {
-    backgroundMusic.pause(); // Pausar la música
+    backgroundMusic.pause();
   } else {
-    backgroundMusic.play(); // Iniciar la reproducción
+    backgroundMusic.play();
   }
-  isMusicPlaying = !isMusicPlaying; // Alternar entre reproducción y pausa
+  isMusicPlaying = !isMusicPlaying;
   updatePlayButtonState();
 });
 
@@ -31,5 +31,10 @@ backgroundMusic.addEventListener('ended', () => {
 });
 
 function updatePlayButtonState() {
-  playButton.textContent = isMusicPlaying ? 'Pause' : 'Play';
+
+  const playIcon = playButton.querySelector('i');
+
+
+  playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
+  playIcon.style.color = '#ffffff'; 
 }
