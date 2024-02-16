@@ -24,6 +24,14 @@ body {
   padding: 0;
 }
 
+/* canvas {
+  height: 100vh;
+  pointer-events: none;
+  position:fixed;
+  width: 100%;
+  z-index: 2;
+} */
+
 header {
   position: relative;
   height: 100vh;
@@ -157,6 +165,8 @@ button.clicked {
 
 
 .floating-button {
+  width: 120px;
+  height: 120px;
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -164,7 +174,7 @@ button.clicked {
   background-color: var(--color-primario);
   color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   cursor: pointer;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, transform 0.3s;
@@ -273,6 +283,12 @@ button.clicked {
     font-size: 1.5vw;
     padding: 0.5vw 2vw;
     margin-top: 2vw;
+  }
+
+  .floating-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
   }
   
   .contador {
