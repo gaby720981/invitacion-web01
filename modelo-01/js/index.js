@@ -44,11 +44,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('button');
 
   buttons.forEach(button => {
-    button.addEventListener('click', function () {
-      this.classList.toggle('clicked');
-    });
+    // Verificar si el botón no tiene el id "playButton"
+    if (button.id !== 'playButton') {
+      button.addEventListener('click', function () {
+        this.classList.toggle('clicked');
+      });
+    }
   });
 });
+
 
 
 
