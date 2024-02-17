@@ -37,7 +37,6 @@ header {
   height: 100vh;
   overflow: hidden;
 }
-
 header::before {
   content: '';
   position: absolute;
@@ -69,7 +68,7 @@ video {
   background-color: #ede9e5;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center top;
   position: relative;
   z-index: 1;
 }
