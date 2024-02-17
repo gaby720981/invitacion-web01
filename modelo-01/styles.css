@@ -70,7 +70,7 @@ video {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
