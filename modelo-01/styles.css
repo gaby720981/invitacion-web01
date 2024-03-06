@@ -194,7 +194,7 @@ button.clicked {
   bottom: 10px;
   right: 10px;
   padding: 10px 20px;
-  background-color: var(--color-primario);
+  background-color: rgba(72, 96, 118, 0.6);
   color: #fff;
   border: none;
   border-radius: 50px;
