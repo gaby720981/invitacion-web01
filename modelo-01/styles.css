@@ -204,7 +204,7 @@ button.clicked {
 }
 
 .floating-button:hover {
-  background-color: var(--color-secundario);
+  background-color: rgba(192, 128, 42, 0.6);
   transform: scale(1.05);
 }
 
