@@ -72,7 +72,7 @@ video {
 }
 
 .content {
-  background-image: url(./img/mobile.png);
+  background-image: url(./img/mobile.webp);
   background-color: #ede9e5;
   background-size: cover;
   background-attachment: fixed;
