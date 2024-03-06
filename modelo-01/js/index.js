@@ -40,6 +40,7 @@ function updatePlayButtonState() {
 }
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('button');
 
@@ -67,7 +68,7 @@ document.addEventListener('scroll', function() {
 
 
 
- //CONFETI
+
  
 
  
