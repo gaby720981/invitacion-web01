@@ -6,11 +6,13 @@
 @font-face {
   font-family: "EB Garamond";
   src: url('./fonts/EBGaramond-VariableFont_wght.woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Romantic Couple";
   src: url('./fonts/Romantic-Couple.woff');
+  font-display: swap;
 }
 
 * {
