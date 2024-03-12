@@ -196,13 +196,11 @@ button.clicked {
   bottom: 1em;
   right: 1em;
   padding: 0.75em 1.5em; 
-  background-color: rgba(72, 96, 118, 0.6);
+  background-color: transparent;
   color: #fff;
   border: none;
   border-radius: 3em;
   cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, transform 0.3s;
 }
 
 .floating-button i {
@@ -215,7 +213,7 @@ button.clicked {
 
 
 .floating-button:hover {
-  background-color: rgba(192, 128, 42, 0.6);
+  background-color: transparent;
   transform: scale(1.05);
 }
 
