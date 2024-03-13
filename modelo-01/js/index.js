@@ -36,7 +36,7 @@ function updatePlayButtonState() {
 
 
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#ffffff'; 
+  playIcon.style.color = '#c0802a'; 
 }
 
 
@@ -54,15 +54,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
-document.addEventListener('scroll', function() {
-  var scrollTop = window.scrollY;
-  var video = document.querySelector('.mobile-video');
-  var maxOpacity = 0.009; // Ajusta el valor máximo de opacidad
-  var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; // Utiliza Math.pow para aplicar una función no lineal
-
-  video.style.opacity = Math.max(opacity, 0).toFixed(2); // Garantiza que la opacidad no sea inferior a 0
-});
 
 
 
