@@ -77,6 +77,7 @@ video {
   background-position: center;
   position: relative;
   z-index: 1;
+
 }
 
 .container {
@@ -85,11 +86,12 @@ video {
   justify-content: center;
   align-content: center;
   text-align: center;
-
-  scroll-snap-type: y mandatory; 
+  
 }
 
+
 .inicio {
+  height: 100vh;
   color: var(--color-secundario);
   font-size: 11vw;
   line-height: 0.8;
@@ -104,9 +106,9 @@ video {
 
 .inicio, .dia, .hora, .lugar, .dresscode, .cancion, .insta, .asistencia {
   padding: 0.5vw;
-  margin-left: 0;
-  margin-right: 0;
-  height: 100vh;
+  margin-top: 50vw;
+
+ 
 
   display: flex;
   flex-direction: column;

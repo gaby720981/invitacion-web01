@@ -2,10 +2,10 @@
 
 window.sr = ScrollReveal();
 
- sr.reveal('.frase, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos', {
-    duration: 1500,
+ sr.reveal('.inicio, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta', {
+    duration: 1200,
     origin: 'bottom', // Animación desde abajo
-    distance: '80px' 
+    distance: '100px' 
 });
 sr.reveal('.despedida', {
   duration: 5000,
