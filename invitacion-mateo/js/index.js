@@ -15,14 +15,16 @@ const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
+document.addEventListener('DOMContentLoaded', function() {
+  playMusic();
+});
+
 playButton.addEventListener('click', () => {
   if (isMusicPlaying) {
-    backgroundMusic.pause();
+    pauseMusic();
   } else {
-    backgroundMusic.play();
+    playMusic();
   }
-  isMusicPlaying = !isMusicPlaying;
-  updatePlayButtonState();
 });
 
 backgroundMusic.addEventListener('ended', () => {
@@ -30,11 +32,20 @@ backgroundMusic.addEventListener('ended', () => {
   updatePlayButtonState();
 });
 
+function playMusic() {
+  backgroundMusic.play();
+  isMusicPlaying = true;
+  updatePlayButtonState();
+}
+
+function pauseMusic() {
+  backgroundMusic.pause();
+  isMusicPlaying = false;
+  updatePlayButtonState();
+}
+
 function updatePlayButtonState() {
-
   const playIcon = playButton.querySelector('i');
-
-
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
   playIcon.style.color = '#AD664D'; 
 }
