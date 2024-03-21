@@ -268,3 +268,8 @@ button.clicked {
   display: none;
 }
 
+@media (min-width: 768px) {
+  body {
+    display: none;
+  }
+}
