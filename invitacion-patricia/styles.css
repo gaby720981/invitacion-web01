@@ -102,15 +102,21 @@
     font-family: "EB Garamond";
     justify-content: center;
   
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Colocar los elementos en una columna */
+    align-items: center; /* Centrar horizontalmente los elementos */
+    text-align: center; /* Centrar el texto dentro de los elementos */
   }
   
   .sh {
     font-style: italic;
+    margin-top: 10vw;
+    
   }
   
-  .inicio, .dia, .hora, .lugar, .dresscode, .cancion, .insta, .asistencia {
+  .dia, .hora, .lugar, .dresscode, .cancion, .insta, .asistencia {
     padding: 0.5vw;
-    margin-top: 50vw;
+    margin-top: 40vw;
   
    
   
