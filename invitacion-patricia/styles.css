@@ -282,7 +282,7 @@ button.clicked {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1284px) {
   body {
     display: none;
   }
