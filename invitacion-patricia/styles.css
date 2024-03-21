@@ -1,4 +1,5 @@
 
+
 @media only screen and (max-width: 600px) {
 
   :root {
@@ -284,5 +285,11 @@
   #backgroundMusic {
     display: none;
   }
- 
+  
+  }
+
+@media (min-width: 1200px) {
+  body {
+    display: none;
+  }
 }
