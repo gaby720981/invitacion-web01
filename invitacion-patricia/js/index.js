@@ -19,6 +19,12 @@ const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
+window.onload = () => {
+  backgroundMusic.play();
+  isMusicPlaying = true;
+  updatePlayButtonState();
+};
+
 playButton.addEventListener('click', () => {
   if (isMusicPlaying) {
     backgroundMusic.pause();
@@ -35,13 +41,11 @@ backgroundMusic.addEventListener('ended', () => {
 });
 
 function updatePlayButtonState() {
-
   const playIcon = playButton.querySelector('i');
-
-
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#CC9E6D'; 
+  playIcon.style.color = '#CC9E6D';
 }
+
 
 
 //Boton clickeado
