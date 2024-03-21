@@ -1,6 +1,5 @@
 
-
-@media (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
 
   :root {
     --color-primario: #1E3868;
