@@ -1,3 +1,5 @@
+//Animación
+
 window.sr = ScrollReveal();
 
  sr.reveal('.frase, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos', {
@@ -11,47 +13,48 @@ sr.reveal('.despedida', {
   distance: '100px' 
 });
 
+//Boton flotante musica
 
 const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
-document.addEventListener('DOMContentLoaded', function() {
-  playMusic();
-});
-
-playButton.addEventListener('click', () => {
-  if (isMusicPlaying) {
-    pauseMusic();
-  } else {
-    playMusic();
-  }
-});
-
-backgroundMusic.addEventListener('ended', () => {
-  isMusicPlaying = false;
-  updatePlayButtonState();
-});
-
-function playMusic() {
-  backgroundMusic.play();
-  isMusicPlaying = true;
-  updatePlayButtonState();
-}
-
-function pauseMusic() {
-  backgroundMusic.pause();
-  isMusicPlaying = false;
-  updatePlayButtonState();
-}
 
 function updatePlayButtonState() {
-  const playIcon = playButton.querySelector('i');
-  playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#AD664D'; 
+ const playIcon = playButton.querySelector('i');
+ playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
+ playIcon.style.color = '#AD664D'; 
 }
 
 
+playButton.addEventListener('click', () => {
+ if (isMusicPlaying) {
+    backgroundMusic.pause();
+ } else {
+    backgroundMusic.play();
+ }
+ isMusicPlaying = !isMusicPlaying;
+ updatePlayButtonState();
+});
+
+
+backgroundMusic.addEventListener('ended', () => {
+ isMusicPlaying = false;
+ updatePlayButtonState();
+});
+
+
+function playMusicOnLoad() {
+ backgroundMusic.play();
+ isMusicPlaying = true;
+ updatePlayButtonState();
+}
+
+
+window.onload = playMusicOnLoad;
+
+
+//Boton clickeado
 
 document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('button');
@@ -65,6 +68,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+//Opacidad al hacer scroll
 
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
