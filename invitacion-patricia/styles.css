@@ -85,6 +85,8 @@ video {
   justify-content: center;
   align-content: center;
   text-align: center;
+
+  scroll-snap-type: y mandatory; 
 }
 
 .inicio {
