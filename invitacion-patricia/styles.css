@@ -68,8 +68,8 @@ video {
 .content {
  
   background-image: 
-  url('./img/fondo.webp'),
-  url('./img/fondo.png');  
+  url('/img/fondo.webp'),
+  url('/img/fondo.png');  
 
   background-color: #FFFFFA; /*color de fondo contenido*/
   background-size: cover;
