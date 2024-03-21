@@ -40,7 +40,7 @@ function updatePlayButtonState() {
 
 
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#AD664D'; 
+  playIcon.style.color = '#CC9E6D'; 
 }
 
 
