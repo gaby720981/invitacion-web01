@@ -40,7 +40,7 @@
   
   header {
     position: relative;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
   }
   header::before {
@@ -97,7 +97,7 @@
   .inicio {
     height: 100vh;
     color: var(--color-secundario);
-    font-size: 11vw;
+    font-size: 9vw;
     line-height: 0.8;
     font-family: "EB Garamond";
     justify-content: center;
