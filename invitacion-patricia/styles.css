@@ -66,7 +66,7 @@ video {
 }
 
 .content {
-  background-image: url(./img/fonfo.png);
+  background-image: url(./img/fondo.png);
   background-color: #FFFFFA; /*color de fondo contenido*/
   background-size: cover;
   background-attachment: fixed;
