@@ -19,39 +19,29 @@ const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
-
-function updatePlayButtonState() {
- const playIcon = playButton.querySelector('i');
- playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
- playIcon.style.color = '#AD664D'; 
-}
-
-
 playButton.addEventListener('click', () => {
- if (isMusicPlaying) {
+  if (isMusicPlaying) {
     backgroundMusic.pause();
- } else {
+  } else {
     backgroundMusic.play();
- }
- isMusicPlaying = !isMusicPlaying;
- updatePlayButtonState();
+  }
+  isMusicPlaying = !isMusicPlaying;
+  updatePlayButtonState();
 });
-
 
 backgroundMusic.addEventListener('ended', () => {
- isMusicPlaying = false;
- updatePlayButtonState();
+  isMusicPlaying = false;
+  updatePlayButtonState();
 });
 
+function updatePlayButtonState() {
 
-function playMusicOnLoad() {
- backgroundMusic.play();
- isMusicPlaying = true;
- updatePlayButtonState();
+  const playIcon = playButton.querySelector('i');
+
+
+  playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
+  playIcon.style.color = '#AD664D'; 
 }
-
-
-window.onload = playMusicOnLoad;
 
 
 //Boton clickeado

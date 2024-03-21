@@ -209,7 +209,7 @@ video {
 button {
   font-family: "EB Garamond";
   background-color: var(--color-primario);
-  color: #ffffff;
+  color: #FFFFFA;
   margin-top: 7vw;
   padding: 1.25vw 4vw;
   font-size: 5vw;
@@ -224,14 +224,18 @@ button.clicked {
 
 
 .floating-button {
-  width: 2.8em;
-  height: 2.8em;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+
   position: fixed;
+
   bottom: 1em;
   right: 1em;
   padding: 0.75em 1.5em; 
-  background-color: transparent;
-  color: #fff;
+
+  background-color: rgba(255, 255, 240, 0.8);
+
   border: none;
   cursor: pointer;
 }
@@ -257,10 +261,10 @@ button.clicked {
   0% {
   transform: scale(1);
   }
-  50% {
+  70% {
   transform: scale(1.1);
   }
-  120% {
+  130% {
   transform: scale(1);
   }
 }
