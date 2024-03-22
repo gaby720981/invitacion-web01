@@ -68,6 +68,34 @@ document.addEventListener('scroll', function() {
 });
 
 
+//efecto fixed
+
+// Selecciona el elemento header
+const header = document.querySelector('header');
+
+// Crea un nuevo div que actuará como el fondo fijo
+const fixedBackground = document.createElement('div');
+fixedBackground.style.position = 'fixed';
+fixedBackground.style.left = '0';
+fixedBackground.style.top = '0';
+fixedBackground.style.width = '100%';
+fixedBackground.style.height = '100%';
+fixedBackground.style.backgroundImage = 'url("/img/fondo.webp"), url("/img/fondo.png"), url("/img/fondo.jpg"), url("/img/fondo.jpeg")';
+fixedBackground.style.backgroundSize = 'cover';
+fixedBackground.style.backgroundPosition = 'center';
+fixedBackground.style.zIndex = '-1';
+
+// Inserta el fondo fijo detrás del elemento header
+header.parentNode.insertBefore(fixedBackground, header);
+
+// Función para actualizar la posición del fondo en el desplazamiento
+function updateBackgroundPosition() {
+  fixedBackground.style.backgroundPosition = 'center ' + (window.pageYOffset * 0.5) + 'px';
+}
+
+// Evento de desplazamiento que actualiza la posición del fondo
+window.addEventListener('scroll', updateBackgroundPosition);
+
 
 
 
