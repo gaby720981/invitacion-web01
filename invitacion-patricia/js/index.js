@@ -68,6 +68,10 @@ document.addEventListener('scroll', function() {
 });
 
 
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+  document.querySelector('.container').classList.add('ios-background');
+}
+
 
 
 

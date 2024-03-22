@@ -105,11 +105,18 @@
 
   }
 
-  @supports not (background-attachment: fixed) {
+  /* @supports not (background-attachment: fixed) {
     .container {
       background-image: none;
       background-color: #71a1f9;
     }
+  } */
+
+  .ios-background {
+
+    background-image: none;
+    background-color: #71a1f9;
+    
   }
   
   .inicio {
