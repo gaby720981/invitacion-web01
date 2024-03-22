@@ -42,7 +42,7 @@
     height: 100%;
     overflow: hidden;
   }
-  
+
   header::before {
     content: '';
     position: absolute;
@@ -98,7 +98,7 @@
   .inicio {
     height: 100vh;
     color: var(--color-secundario);
-    font-size: 9vw;
+    font-size: 8vw;
     line-height: 0.8;
     font-family: "EB Garamond";
     justify-content: center;
