@@ -102,12 +102,10 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgb(136, 195, 211, 0.3);
 
   }
 
   .ios-background {
-
     background-image: none;
     background-color: rgb(136, 195, 211, 0.3);
     
