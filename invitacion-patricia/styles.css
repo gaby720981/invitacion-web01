@@ -105,6 +105,12 @@
 
   }
   
+  @supports not (background-attachment: fixed) {
+    .contanier {
+      background-attachment: local;
+      background-position: center;
+    }
+  }
   
   .inicio {
     height: 100vh;
