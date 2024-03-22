@@ -68,7 +68,7 @@ document.addEventListener('scroll', function() {
 });
 
 
-//efecto fixed
+
 
 
 

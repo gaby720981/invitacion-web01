@@ -77,13 +77,11 @@
     url('/img/fondo.jpeg'), 
     url('/img/fondo.png');
     
-  
-    /* background-color: #FFFFFA; */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 
-  }
+  } 
   
   .container {
     display: flex;
