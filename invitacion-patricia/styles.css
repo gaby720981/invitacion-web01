@@ -72,10 +72,11 @@
    
     background-image: 
     url('/img/fondo.webp'),
+    url('/img/fondo.png'),
     url('/img/fondo.jpg'),
     url('/img/fondo.jpeg');  
   
-    background-color: #FFFFFA; /*color de fondo contenido*/
+    /* background-color: #FFFFFA; */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
