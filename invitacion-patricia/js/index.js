@@ -90,7 +90,7 @@ header.parentNode.insertBefore(fixedBackground, header);
 
 // Función para actualizar la posición del fondo en el desplazamiento
 function updateBackgroundPosition() {
-  fixedBackground.style.backgroundPosition = 'center ' + (window.pageYOffset * 0.5) + 'px';
+  fixedBackground.style.backgroundPosition = 'center ' + (window.scrollY * 0.5) + 'px';
 }
 
 // Evento de desplazamiento que actualiza la posición del fondo
