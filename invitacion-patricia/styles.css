@@ -107,7 +107,8 @@
 
   @supports not (background-attachment: fixed) {
     .container {
-      background-attachment: local;
+      background-image: none;
+      background-color: #71a1f9;
     }
   }
   
