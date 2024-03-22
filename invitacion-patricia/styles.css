@@ -104,11 +104,10 @@
     background-position: center;
 
   }
-  
+
   @supports not (background-attachment: fixed) {
     .contanier {
       background-attachment: local;
-      background-position: center;
     }
   }
   
