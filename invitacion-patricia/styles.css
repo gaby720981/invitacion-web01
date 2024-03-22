@@ -69,7 +69,7 @@
     transition: opacity 0.5s ease;
   }
   
-  .content {
+  /*.content {
    
     background-image: 
     url('/img/fondo.jpg'),
@@ -81,7 +81,10 @@
     background-attachment: fixed;
     background-position: center;
 
-  } 
+    height: 100vh;
+    width: 100%;
+
+  } */
   
   .container {
     display: flex;
@@ -89,6 +92,18 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+
+    background-image: 
+    url('/img/fondo.jpg'),
+    url('/img/fondo.webp'),
+    url('/img/fondo.jpeg'), 
+    url('/img/fondo.png');
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+   
 
   }
   
