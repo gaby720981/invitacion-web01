@@ -19,12 +19,6 @@ const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
-window.onload = () => {
-  backgroundMusic.play();
-  isMusicPlaying = true;
-  updatePlayButtonState();
-};
-
 playButton.addEventListener('click', () => {
   if (isMusicPlaying) {
     backgroundMusic.pause();
