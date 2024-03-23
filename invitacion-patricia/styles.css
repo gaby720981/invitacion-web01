@@ -134,7 +134,7 @@
   
   .dia, .hora, .lugar, .dresscode, .cancion, .insta, .asistencia {
     padding: 0.5vw;
-    margin-top: 40vw;
+    margin-top: 50vw;
   
     display: flex;
     flex-direction: column;
