@@ -81,6 +81,9 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
   let confetti_button = confetti.create(canvas);
   
   confetti_button({
+    particleCount: 200,
+    spread: 180,
+
     colors: ["#c0802a"]
   }).then(() => {
     setTimeout(() => {
