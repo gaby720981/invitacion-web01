@@ -115,7 +115,7 @@
     height: 100vh;
     color: var(--color-secundario);
     font-size: 8vw;
-    line-height: 0.8;
+    line-height: 0.1;
     font-family: "EB Garamond";
     justify-content: center;
   
@@ -185,6 +185,7 @@
      font-size: 11vw;
      font-family: "Le jour";
      margin: 0;
+     line-height: 2.2;
   } /*titulos*/
   
   .texto2 {
