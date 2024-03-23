@@ -74,11 +74,11 @@
     text-align: center;
   }
 
-
   
   .inicio {
+
     height: 50vh;
-    color: var(--color-secundario);
+    color: var(--color-primario);
     font-size: 8vw;
     line-height: 0.1;
     font-family: "EB Garamond";
@@ -108,14 +108,16 @@
   }
   
   .despedida {
-    margin-bottom: 2vh;
-    height: 100vh;
-    color: var(--color-secundario);
-    line-height: 1;
-    font-size: 11vw;
     font-family: "EB Garamond";
     font-style: italic;
   
+    color: var(--color-primario);
+
+    line-height: 1;
+    font-size: 11vw;
+    margin-bottom: 2vh;
+    
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +147,7 @@
   } 
   
   .texto1 {
-     color: var(--color-secundario);
+    color: var(--color-primario);
      font-size: 11vw;
      font-family: "Le jour";
      margin: 0;
