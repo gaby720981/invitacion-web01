@@ -11,20 +11,20 @@ sr.reveal('.despedida', {
   distance: '100px' 
 });
 
+//Boton flotante musica
+
 const backgroundMusic = document.getElementById('backgroundMusic');
 const playButton = document.getElementById('playButton');
 let isMusicPlaying = false;
 
-document.addEventListener('DOMContentLoaded', function() {
-  playMusic();
-});
-
 playButton.addEventListener('click', () => {
   if (isMusicPlaying) {
-    pauseMusic();
+    backgroundMusic.pause();
   } else {
-    playMusic();
+    backgroundMusic.play();
   }
+  isMusicPlaying = !isMusicPlaying;
+  updatePlayButtonState();
 });
 
 backgroundMusic.addEventListener('ended', () => {
@@ -32,25 +32,14 @@ backgroundMusic.addEventListener('ended', () => {
   updatePlayButtonState();
 });
 
-function playMusic() {
-  backgroundMusic.play();
-  isMusicPlaying = true;
-  updatePlayButtonState();
-}
-
-function pauseMusic() {
-  backgroundMusic.pause();
-  isMusicPlaying = false;
-  updatePlayButtonState();
-}
-
 function updatePlayButtonState() {
   const playIcon = playButton.querySelector('i');
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#AD664D'; 
+  playIcon.style.color = '#CC9E6D';
 }
 
 
+//color clickeado
 
 document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('button');
@@ -65,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+//opacidad
 
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
@@ -73,6 +63,30 @@ document.addEventListener('scroll', function() {
   var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; // Utiliza Math.pow para aplicar una función no lineal
 
   video.style.opacity = Math.max(opacity, 0).toFixed(2); // Garantiza que la opacidad no sea inferior a 0
+});
+
+
+//efecto confeti
+
+document.getElementsByClassName("confetti-button")[0].addEventListener("click", () => {
+  let canvas = document.createElement("canvas");
+  let container = document.getElementsByClassName("confetti-container")[0];
+  canvas.width = 600;
+  canvas.height = 600;
+
+  container.appendChild(canvas);
+
+  let confetti_button = confetti.create(canvas);
+  
+  confetti_button({
+    colors: ["#c0802a"]
+  }).then(() => {
+    setTimeout(() => {
+      container.removeChild(canvas);
+     
+      window.open("https://pinterest.com/", "_blank");
+    }, 100);
+  });
 });
 
 
