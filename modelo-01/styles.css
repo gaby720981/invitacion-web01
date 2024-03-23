@@ -102,17 +102,19 @@ video {
   height: 100%;
 }
 
-.texto1, .texto2, .textov1, .textov2, .numero {
+ .texto2, .textov1, .textov2, .numero {
   color: var(--color-secundario);
   font-family: "EB Garamond";
 }
 
 .texto1 {
-   font-size: 11vw;
+  color: var(--color-primario);
+   font-size: 12vw;
+   font-family: "EB Garamond";
 }
 
 .texto2 {
-  font-size: 8vw;
+  font-size: 9vw;
 }
 
 .textov1 {
