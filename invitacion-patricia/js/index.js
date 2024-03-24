@@ -83,14 +83,15 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
   confetti_button({
     particleCount: 200,
     spread: 180,
-    colors: ["#c0802a"]
+    colors: ["#c0802a"],
+    duration: 2000
 
   }).then(() => {
     setTimeout(() => {
       container.removeChild(canvas);
      
       window.location.href = ("https://wa.link/wsif03");
-    }, 500);
+    }, 2000);
   });
 });
 
