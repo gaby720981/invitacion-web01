@@ -84,13 +84,13 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
     particleCount: 200,
     spread: 180,
     colors: ["#c0802a"]
-    
+
   }).then(() => {
     setTimeout(() => {
       container.removeChild(canvas);
      
       window.location.href = ("https://wa.link/wsif03");
-    }, 100);
+    }, 500);
   });
 });
 
