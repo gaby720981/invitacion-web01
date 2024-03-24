@@ -89,7 +89,7 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
     setTimeout(() => {
       container.removeChild(canvas);
      
-      window.open("https://wa.link/wsif03", "_blank");
+      window.open("https://wa.link/wsif03");
     }, 100);
   });
 });
