@@ -89,7 +89,13 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
     setTimeout(() => {
       container.removeChild(canvas);
      
-      window.open("https://wa.link/wsif03");
+        if (window.location.protocol === "https:") {
+          window.location.href = "whatsapp://send?phone=5491134567890&text=Hola%20mundo!";
+        } else {
+          // Si no es HTTPS, usa un enlace regular
+          window.open("https://wa.link/wsif03");
+        }
+     
     }, 100);
   });
 });
