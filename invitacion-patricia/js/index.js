@@ -80,17 +80,18 @@ function handleButtonClick() {
 
   let confetti_button = confetti.create(canvas);
 
-  confetti_button({
-    particleCount: 100, 
+  window.location.href = "https://wa.link/wsif03"; 
 
+  confetti_button({
+    particleCount: 200, 
+    spread: 180,
     colors: ["#c0802a"],
     shapes: ["square"],
-
   }).then(() => {
     container.removeChild(canvas); 
-    window.location.href = "https://wa.link/wsif03"; 
   });
 }
+
 
 
 
