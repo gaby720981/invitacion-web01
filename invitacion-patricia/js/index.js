@@ -70,7 +70,7 @@ document.addEventListener('scroll', function() {
 
 //efecto confeti
 
-document.getElementsByClassName("confetti-button")[0].addEventListener("click", () => {
+function handleButtonClick() {
   let canvas = document.createElement("canvas");
   let container = document.getElementsByClassName("confetti-container")[0];
   canvas.width = 600;
@@ -79,21 +79,24 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
   container.appendChild(canvas);
 
   let confetti_button = confetti.create(canvas);
-  
+
   confetti_button({
-    particleCount: 150,
-    spread: 180,
+    particleCount: 100, 
+
     colors: ["#c0802a"],
-    duration: 1000
+    shapes: ["square"],
 
   }).then(() => {
-    setTimeout(() => {
-      container.removeChild(canvas);
-     
-      window.location.href = ("https://wa.link/wsif03");
-    }, 1000);
+    container.removeChild(canvas); 
+    window.location.href = "https://wa.link/wsif03"; 
   });
-});
+}
+
+
+
+
+
+
 
 
 
