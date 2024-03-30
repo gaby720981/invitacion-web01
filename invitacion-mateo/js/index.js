@@ -64,7 +64,7 @@ document.addEventListener('scroll', function() {
 
 //efecto confeti
 
-document.getElementsByClassName("confetti-button")[0].addEventListener("click", () => {
+function handleButtonClick() {
   let canvas = document.createElement("canvas");
   let container = document.getElementsByClassName("confetti-container")[0];
   canvas.width = 600;
@@ -73,21 +73,19 @@ document.getElementsByClassName("confetti-button")[0].addEventListener("click", 
   container.appendChild(canvas);
 
   let confetti_button = confetti.create(canvas);
-  
+
   confetti_button({
-    particleCount: 200,
+    particleCount: 200, 
     spread: 180,
-
-    colors: ["#c0802a"]
-  }).then(() => {
-    setTimeout(() => {
-      container.removeChild(canvas);
-     
-      window.open("https://ar.pinterest.com/", "_blank");
-    }, 100);
+    colors: ["#c0802a"],
+    shapes: ["square"]
   });
-});
 
+  setTimeout(() => {
+    window.location.href = "https://web.whatsapp.com/";
+  }, 1000);
+}
+  
 
 
 

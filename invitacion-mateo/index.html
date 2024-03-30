@@ -12,16 +12,11 @@
   </head>
   <body>
     <header>
-      <video class="mobile-video" autoplay muted playsinline>
-        <source src="./video/portada.webm" type="video/webm">
-        <source src="/video/portada.mp4" type="video/mp4">
-
+      <video class="mobile-video" autoplay muted preload playsinline>>
+        <source src="video/portada.mp4" video/mp4">
         Tu navegador no admite el elemento de video.
       </video>
-      <video class="desktop-video" autoplay muted onloadedmetadata="this.muted=true" >
-        <source src="./video/desktop.webm" type="video/webm">
-        Tu navegador no admite el elemento de video.
-      </video>
+    
     </header>
     <div class="content">
       <div class="container">
@@ -95,7 +90,7 @@
             <div class="confetti-container">
               <!-- Lienzo -->
             </div>
-              <button type="button" class="confetti-button">Confirmar</button>
+            <button type="button" class="confetti-button" onclick="handleButtonClick()">Confirmar</button>
           </div>
 
         </div>
