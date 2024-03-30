@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/b41e505688.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Mateo</title>
+   
+  </head>
+  <body>
+    <header>
+      <video class="mobile-video" autoplay muted onloadedmetadata="this.muted=true" >
+        <source src="video/portada.mp4" type="video/webm">
+        Tu navegador no admite el elemento de video.
+      </video>
+    </header>
+
+      <article class="container">
+        <div class="button-wrapper">
+          <div class="confetti-container">
+            <!-- Lienzo -->
+          </div>
+          <button type="button" class="confetti-button" onclick="handleButtonClick()">Confirmar</button>
+        </div>
+
+        
+      </article>
+
+      
+      <audio id="backgroundMusic">
+        <source src="audio/cancion-fondo.mp3" type="audio/mpeg">
+      </audio>
+      <button id="playButton" class="floating-button pulse">
+        <i class="fa-solid fa-volume-high" style="color: #AD664D;"></i>
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
