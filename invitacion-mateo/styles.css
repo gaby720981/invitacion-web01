@@ -108,6 +108,12 @@ video {
   height: 100%;
 }
 
+.cab1 {
+  height: 180px;
+  width: 150px;
+ 
+}
+
 .texto2, .textov1, .textov2, .numero {
   color: var(--color-secundario);
   font-family: "EB Garamond";
@@ -243,18 +249,18 @@ button.clicked {
 .imagen-despedida{
   width: 100vw;
   height: 110vw;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
 .despedida {
-  margin-top: 200px;
+  margin-top: 50px;
   color: var(--color-secundario);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  line-height: 0.5;
+  line-height: 0.2;
 }
 
 .p1 {
@@ -265,8 +271,8 @@ button.clicked {
 .p2 {
   font-family: "EB Garamond";
   font-size: 9vw;
-  margin-bottom: 10px;
-  margin: 10px;
+  margin-bottom: 100px;
+ 
 }
 
 #backgroundMusic {
