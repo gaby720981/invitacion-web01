@@ -243,11 +243,11 @@ button.clicked {
 .imagen-despedida{
   width: 100vw;
   height: 110vw;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .despedida {
-  
+  margin-top: 200px;
   color: var(--color-secundario);
   height: 100vh;
   display: flex;
@@ -260,11 +260,13 @@ button.clicked {
 .p1 {
   font-family: "EB Garamond";
   font-size: 12vw;
+  margin: 0;
 }
 .p2 {
   font-family: "EB Garamond";
   font-size: 9vw;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
+  margin: 10px;
 }
 
 #backgroundMusic {
