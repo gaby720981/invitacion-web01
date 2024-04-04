@@ -24,7 +24,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #EDEAE8;
+ 
 }
 
 .asistencia-container {
@@ -84,7 +84,7 @@ video {
   text-align: center;
 }
 
-.dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos {
+.dia, .hora, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos {
   padding: 0.5vw;
   margin-top: 50vw;
   margin-left: 0;
@@ -92,6 +92,8 @@ video {
   align-items: center;
   text-align: center;
 }
+
+
 
 .contador {
   display: block;
@@ -109,10 +111,21 @@ video {
   height: 100%;
 }
 
+.lugar {
+  padding: 0.5vw;
+  margin-top: 50vw;
+  margin-left: 0;
+  margin-right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .cab1 {
-  height: 180px;
+  height: 150px;
   width: 150px;
- 
+  align-self: flex-end;
 }
 
 .texto2, .textov1, .textov2, .numero {
@@ -123,6 +136,7 @@ video {
 .texto1 {
    color: var(--color-primario);
    font-size: 13vw;
+   line-height: 0.2;
    font-family: "Lancelot";
 } /*titulos*/
 
