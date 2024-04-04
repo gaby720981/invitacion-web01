@@ -117,15 +117,15 @@ video {
 }
 
 .cab1 {
-  height: 300px;
-  width: 200px;
+  height: 250px;
+  width: 1500px;
   align-self: flex-end;
   padding-bottom: 100px;
 }
 
 .asistencia {
   padding: 0.5vw;
-  margin-top: 50vw;
+  margin-top: 10vw;
   margin-left: 0;
   margin-right: 0;
 
@@ -281,7 +281,7 @@ button.clicked {
 }
 
 .despedida {
-  margin-top: 50px;
+  margin-top: 200px;
   color: var(--color-secundario);
   height: 100vh;
   display: flex;
