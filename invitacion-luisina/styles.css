@@ -140,6 +140,7 @@ video {
   color: var(--color-primario);
    font-size: 12vw;
    font-family: "EB Garamond";
+   margin-bottom: 5px;
 }
 
 .texto2 {
