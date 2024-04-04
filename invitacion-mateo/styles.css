@@ -136,6 +136,7 @@ video {
 .cab2 {
   height: 150px;
   width: 150px;
+  margin-left: 40px;
   align-self: flex-start;
 }
 
