@@ -118,14 +118,14 @@ video {
 
 .cab1 {
   height: 250px;
-  width: 1500px;
+  width: 150px;
   align-self: flex-end;
   padding-bottom: 100px;
 }
 
 .asistencia {
   padding: 0.5vw;
-  margin-top: 10vw;
+  margin-top: 20vw;
   margin-left: 0;
   margin-right: 0;
 
@@ -135,9 +135,9 @@ video {
 }
 
 .cab2 {
-  height: 300px;
-  width: 300px;
-  margin-left: 10px;
+  height: 200px;
+  width: 150px;
+  margin-bottom: 100px;
   align-self: flex-start;
 }
 
