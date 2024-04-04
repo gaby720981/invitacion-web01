@@ -29,7 +29,6 @@
     padding: 0;
   }
   
-  
   header {
     position: relative;
     height: 100%;
@@ -73,7 +72,6 @@
     align-content: center;
     text-align: center;
   }
-
   
   .inicio {
 
@@ -88,7 +86,6 @@
     flex-direction: column; 
     align-items: center; 
     text-align: center;
-    
   }
   
   .sh {
@@ -152,7 +149,7 @@
      font-family: "Le jour";
      margin: 0;
      line-height: 2.2;
-  } /*titulos*/
+  } 
   
   .texto2 {
     font-size: 8vw;
