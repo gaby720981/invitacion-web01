@@ -167,7 +167,6 @@ video {
   margin-top: 5vw;
 }
 
-
 .numero {
   color: var(--color-secundario);
   display: flex;
@@ -220,7 +219,6 @@ button.clicked {
   color: #ffffff;
 }
 
-
 .floating-button {
   width: 2.8em;
   height: 2.8em;
@@ -241,7 +239,6 @@ button.clicked {
   justify-content: center;
   height: 100%;
 }
-
 
 .floating-button:hover {
   background-color: transparent;
@@ -277,7 +274,6 @@ button.clicked {
   flex-direction: column;
 }
 
-
 .imagen-despedida{
   width: 80vw;
   height: 60vw;
@@ -300,7 +296,7 @@ button.clicked {
   }
 }
 
- /*desktop*/
+ /*
 
 @media (min-width: 1200px) {
 
@@ -393,4 +389,4 @@ button.clicked {
   .despedida {
     font-size: 8vw;
   }
-}
+}*/
