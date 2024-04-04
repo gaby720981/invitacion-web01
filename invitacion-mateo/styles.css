@@ -27,12 +27,6 @@ body {
  
 }
 
-.asistencia-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 
 header {
@@ -84,7 +78,7 @@ video {
   text-align: center;
 }
 
-.dia, .hora, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos {
+.dia, .hora, .dresscode, .cancion, .insta, .tips, .fotos {
   padding: 0.5vw;
   margin-top: 50vw;
   margin-left: 0;
@@ -126,6 +120,23 @@ video {
   height: 150px;
   width: 150px;
   align-self: flex-end;
+}
+
+.asistencia {
+  padding: 0.5vw;
+  margin-top: 50vw;
+  margin-left: 0;
+  margin-right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cab2 {
+  height: 150px;
+  width: 150px;
+  align-self: flex-start;
 }
 
 .texto2, .textov1, .textov2, .numero {
