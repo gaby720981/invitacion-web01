@@ -269,14 +269,30 @@ button.clicked {
 }
 
 .despedida {
+  margin-top: 200px;
   line-height: 1;
   color: var(--color-secundario);
-  font-size: 22vw;
+  font-size: 15vw;
   height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+ 
+}
+
+
+.imagen-despedida{
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 30px;
+}
+
+.p1 {
   font-family: Romantic Couple;
+  font-size: 15vw;
+  margin: 0;
 }
   
 #backgroundMusic {
