@@ -303,7 +303,7 @@
   }
   
   .p1 {
-    color: #69724b;
+    color: var(--color-primario);
     font-family: "White Garden";
     font-size: 19vw;
     margin: 0;
