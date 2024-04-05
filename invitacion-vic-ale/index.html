@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="https://cumple-patricia-50.netlify.app/img/link-preview.jpeg">
+    <meta property="og:title" content="Victoria y Alejandro">
+    <meta property="og:description" content="Te invitamos a nuestra boda">
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/b41e505688.js" crossorigin="anonymous"></script>
+   
+    <title>Victoria y Alejandro</title>
+   
+  </head>
+
+  <body>
+    <header>
+      <video class="mobile-video" autoplay muted preload playsinline>
+        <source src="./video/portada.mp4" type="video/mp4">
+        Tu navegador no admite el elemento de video.
+      </video>
+    </header>
+    <div class="content">
+      <div class="container">
+
+        <div class="inicio">
+          <p class="text_inicio">Hoy damos el sí más 
+            importante de nuestras vidas, el que sella
+            nuestro compromiso, nuestro  proyecto e ilusión. Hoy nos damos el sí del amor, el cariño y la pasión. Nos damos el sí de la unión y de la bendición. 
+          </p>
+       
+        </div>
+
+        <div class="dia">
+          <p class="texto1">Día</p>
+          <p class="texto2"> 12.12.2024</p>
+          <a href="https://calendar.google.com/calendar/u/0/r">
+            <button type="button">Agendar</button>
+          </a>
+        </div>
+
+        <div class="lugar">
+          <p class="texto1">Ceremonia Religiosa</p>
+          <p class="texto2">Parroquia Maria Madre de la Iglesia</p>
+          <p class="texto2">Cnel Juan Pascual Pringles 1158 - Formosa 
+          </p>
+          <a href="https://goo.gl/maps/FRvc48Xk3cYtoh2q6" target="_blank">
+            <button type="button">Ir a Google Maps</button>
+          </a>
+        </div>
+  
+        <div class="hora"> 
+          <p class="texto1">Hora</p>
+          <p class="texto2"> 18:30 </p>
+          <p class="textov1">Se ruega puntualidad… <br> No quisiéramos que te
+            pierdas de nada!
+            </p>
+          <p class="contador">
+            <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="4348373" class="tickcounter" style="display:block; left:0; width:80%; height:0; position:relative; padding-bottom:25%; margin:0 auto;" title="My countdown" href="//www.tickcounter.com/"></a>
+          </p>
+        </div>
+  
+        <div class="lugar">
+          <img class="deco1" src="./img/deco1.png">
+          <p class="texto1">Fiesta</p>
+          <p class="texto2">Espacio Madero Norte</p>
+          <a href="https://goo.gl/maps/FRvc48Xk3cYtoh2q6" target="_blank">
+            <button type="button">Ir a Google Maps</button>
+          </a>
+        </div>
+  
+        <div class="dresscode">
+          <p class="texto1">Dresscode</p>
+          <p class="texto2">Etiqueta <br> (colores blanco y nude, abstenerse!)</p>
+          <p class="textov2">HACE CLICK PARA INSPIRARTE Y
+            TENER UNA IDEA MÁS CLARA</p>
+          <a href="https://www.pinterest.com" target="_blank">
+            <button type="button">Ver tablero</button>
+          </a>
+        </div>
+
+        <div class="cancion">
+          <div class="caja">
+            <img alt="gid de nota musical" src="./img/musica-icono.gif">
+          </div>
+          <p class="texto2">¿Cuál es la canción <br> que no puede faltar <br> en la playlist de la fiesta?</p>
+          <a href="" target="_blank">
+              <button type="button">Sugerir canción</button>
+          </a>
+        </div>
+
+        <div class="insta">
+          <div class="caja">
+            <img alt="gif estrellas" src="./img/filtro.gif">
+          </div>
+          <p class="texto2">¿Las selfies? <br> ¡Claro! ¡Muchas! <br> ¡Aquí va este filtro bien bonito!
+            </p>
+          <div class="cajains">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img alt="icono instagram" src="./img/instagram-icono.png">
+            </a>
+          </div>
+        </div>
+  
+        <div class="asistencia">
+          <img class="deco2" src="./img/deco2.png">
+          <p class="texto2">Nos haría muy felices que estés!</p>
+          <p  class="textov2">Por favor, confirmá tu presencia:</p>
+          <div class="numero">
+            <p>R.S.V.P</p>
+            <img class="rsvp-img" src="./img/RSVP.png" alt="RSVP">
+            <p>+549370421-4208</p>
+          </div>
+
+          <div class="button-wrapper">
+            <div class="confetti-container">
+              <!-- Lienzo -->
+            </div>
+            <button type="button" class="confetti-button" onclick="handleButtonClick()">Confirmar</button>
+          </div>
+          
+
+        </div>
+
+        <div class="despedida">
+          <img class="imagen-despedida" src="./img/despedida.png">
+          <p class="p1">¡Nos vemos pronto!</p>
+        </div>
+        
+      </div>
+      
+      <audio id="backgroundMusic">
+        <source src="audio/cancion-fondo.mp3" type="audio/mpeg">
+      </audio>
+      <button id="playButton" class="floating-button pulse">
+        <i class="fa-solid fa-volume-high" style="color: #c0802a;"></i>
+      </button>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
