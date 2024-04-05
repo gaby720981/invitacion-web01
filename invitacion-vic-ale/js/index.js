@@ -87,7 +87,7 @@ function handleButtonClick() {
   });
 
   setTimeout(() => {
-    window.location.href = "https://wa.link/wsif03";
+    window.location.href = "https://wa.link";
   }, 1000);
 }
 
