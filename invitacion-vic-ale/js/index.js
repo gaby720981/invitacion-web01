@@ -37,9 +37,8 @@ backgroundMusic.addEventListener('ended', () => {
 function updatePlayButtonState() {
   const playIcon = playButton.querySelector('i');
   playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#CC9E6D';
+  playIcon.style.color = '#bfa685';
 }
-
 
 
 //Boton clickeado
