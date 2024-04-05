@@ -135,10 +135,18 @@
     margin-top: 50px;
   }
 
-  .dia, .hora, .dresscode, .asistencia, .musica, .insta {
+  .dia, .dresscode, .asistencia, .musica, .insta {
     padding: 0.5vw;
     margin-top: 20vw;
     margin-bottom: 30vw;
+   
+    align-items: center;
+    text-align: center;
+  }
+
+  .hora {
+    padding: 0.5vw;
+    margin-top: 20vw;
    
     align-items: center;
     text-align: center;
@@ -164,7 +172,7 @@
     height: 300px;
     width: 200px;
     align-self: flex-end;
-    padding-bottom: 100px;
+    padding-bottom: px;
   }
 
   .lugar {
@@ -203,7 +211,7 @@
 
   .info {
     padding: 0.5vw;
-    margin-top: 40vw;
+    margin-top: 20vw;
   }
   
   .asistencia {
