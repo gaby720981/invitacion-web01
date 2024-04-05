@@ -70,20 +70,43 @@
   }
   
   .container {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
   }
+
+  .texto2, .textov1, .textov2, .numero {
+    color: var(--color-secundario);
+    font-family: "EB Garamond";
+  }
+  
+  .texto1 {
+    color: var(--color-primario);
+    font-size: 12vw;
+    font-family: "EB Garamond";
+    margin-bottom: 5px;
+  }
+  
+  .texto2 {
+    font-size: 9vw;
+  }
+  
+  .textov1 {
+    font-size: 6vw;
+  }
+  
+  .textov2 {
+    font-size: 6vw;
+    line-height: 1.3;
+  }
   
   .inicio {
     margin-top: 50px;
     height: 100%;
     color: var(--color-primario);
-    font-size: 8vw;
-    line-height: 1.5;
+    
     font-family: "EB Garamond";
     justify-content: center;
   
@@ -95,10 +118,18 @@
   
   .text_inicio {
     font-style: italic;
-    margin: 0;
+    margin: 15px;
+    font-size: 7vw;
+    line-height: 1.3;
   }
 
-  .dia, .hora, .dresscode, .asistencia, .cancion, .insta {
+  .imagen_inicio {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+  }
+
+  .dia, .hora, .dresscode, .asistencia, .musica, .insta {
     padding: 0.5vw;
     margin-top: 40vw;
    
@@ -122,6 +153,13 @@
     height: 100%;
   }
   
+  .deco1 {
+    height: 300px;
+    width: 200px;
+    align-self: flex-end;
+    padding-bottom: 100px;
+  }
+
   .lugar {
     padding: 0.5vw;
     margin-top: 30vw;
@@ -131,11 +169,32 @@
     align-items: center;
   }
   
-  .deco1 {
-    height: 300px;
-    width: 200px;
-    align-self: flex-end;
-    padding-bottom: 100px;
+  .regalo {
+    padding: 0.5vw;
+    margin-top: 40vw;
+  }
+
+  .imagen_regalo {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .insta_filtro, .musica_nota {
+    width: 25vw;
+    height: 25vw;
+    margin-bottom: 5vw;
+  }
+  
+  .insta_icono {
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5vw;
+  }
+
+  .info {
+    padding: 0.5vw;
+    margin-top: 40vw;
   }
   
   .asistencia {
@@ -146,51 +205,14 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .deco2 {
     height: 200px;
     width: 200px;
     margin-bottom: 100px;
     align-self: flex-start;
   }
-  
-   .texto2, .textov1, .textov2, .numero {
-    color: var(--color-secundario);
-    font-family: "EB Garamond";
-  }
-  
-  .texto1 {
-    color: var(--color-primario);
-     font-size: 12vw;
-     font-family: "EB Garamond";
-     margin-bottom: 5px;
-  }
-  
-  .texto2 {
-    font-size: 9vw;
-  }
-  
-  .textov1 {
-    font-size: 5vw;
-  }
-  
-  .textov2 {
-    font-size: 5.2vw;
-    line-height: 1;
-  }
-  
-  .caja img {
-    width: 25vw;
-    height: 25vw;
-    margin-bottom: 5vw;
-  }
-  
-  .cajains img {
-    width: 12vw;
-    height: 12vw;
-    margin-top: 5vw;
-  }
-  
+
   .numero {
     color: var(--color-secundario);
     display: flex;
@@ -206,7 +228,7 @@
     padding: 0;
   }
   
-  .rsvp-img {
+  .rsvp_img {
     width: 5vw;
     height: 5vw;
     margin: 0 20px;
@@ -243,6 +265,31 @@
     color: #ffffff;
   }
   
+  .despedida {
+    margin-top: 200px;
+    line-height: 1;
+    color: var(--color-secundario);
+    font-size: 15vw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .imagen-despedida{
+    width: 80vw;
+    height: 80vw;
+    margin-bottom: 30px;
+  }
+  
+  .p1 {
+    font-family: Romantic Couple;
+    font-size: 15vw;
+    margin: 0;
+  }
+
   .floating-button {
     width: 2.8em;
     height: 2.8em;
@@ -283,31 +330,6 @@
     100% {
     transform: scale(1);
     }
-  }
-  
-  .despedida {
-    margin-top: 200px;
-    line-height: 1;
-    color: var(--color-secundario);
-    font-size: 15vw;
-    height: 100vh;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .imagen-despedida{
-    width: 80vw;
-    height: 80vw;
-    margin-bottom: 30px;
-  }
-  
-  .p1 {
-    font-family: Romantic Couple;
-    font-size: 15vw;
-    margin: 0;
   }
     
   #backgroundMusic {
