@@ -67,7 +67,7 @@ document.addEventListener('scroll', function() {
 });
 
 
-//efecto confeti
+//efecto confeti y confirmar asistencia
 
 function handleButtonClick() {
   let canvas = document.createElement("canvas");
