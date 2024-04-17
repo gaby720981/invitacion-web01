@@ -35,13 +35,14 @@
     padding: 0;
   }
 
+
   header {
-    /* position: relative; */
+    position: relative;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
-  /* header::before {
+  header::before {
     content: '';
     position: absolute;
     top: 0;
@@ -50,21 +51,22 @@
     height: 100%;
     z-index: -1;
   }
-   */
+  
   video {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* z-index: -1; */
+    z-index: -1;
   }
-/*   
+  
   .mobile-video {
     opacity: 1;
     transition: opacity 0.5s ease;
-  } */
+  }
+  
   
   .content {
     background-color: #fffdf8;

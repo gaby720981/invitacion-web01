@@ -56,6 +56,16 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+//Opacidad al hacer scroll
+
+document.addEventListener('scroll', function() {
+  var scrollTop = window.scrollY;
+  var video = document.querySelector('.mobile-video');
+  var maxOpacity = 0.009; // Ajusta el valor máximo de opacidad
+  var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; 
+  video.style.opacity = Math.max(opacity, 0).toFixed(2); 
+});
+
 
 //efecto confeti
 
