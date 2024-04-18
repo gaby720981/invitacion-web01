@@ -155,13 +155,18 @@ z-index: -1;
   color: var(--color-secundario);
   display: flex;
   flex-direction: row;
-  font-size: 4.8vw;
+  
   justify-content: center;
   align-items: center;
-  line-height: 2;
+ 
 }
 
-.numero p {
+.numeroimg {
+  height: 40px;
+  width: 250px;
+}
+
+/* .numero p {
   margin: 0;
   padding: 0;
 }
@@ -170,7 +175,7 @@ z-index: -1;
   width: 5vw;
   height: 5vw;
   margin: 0 20px;
-}
+} */
 
 .confetti-container {
   position: absolute;
