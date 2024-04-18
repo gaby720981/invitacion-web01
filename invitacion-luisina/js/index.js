@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
-  var video = document.querySelector('.mobile-video');
+  var video = document.querySelector('.portada');
   var maxOpacity = 0.009; // Ajusta el valor máximo de opacidad
   var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; // Utiliza Math.pow para aplicar una función no lineal
 
