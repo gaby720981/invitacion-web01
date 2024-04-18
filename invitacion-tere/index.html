@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta property="og:image" content="/img/link-preview.png"> -->
+    <meta property="og:title" content="XV Tere">
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/b41e505688.js" crossorigin="anonymous"></script>
+    <title>Tere</title>
+   
+  </head>
+  <body>
+
+    <header>
+      <img class="portada" src="./img/portada.png" >
+    </header>
+
+    <div class="content">
+      <div class="container">
+
+        <div class="dia">
+          <p class="texto1">Sábado</p>
+          <p class="texto2"> 29.06.24 </p>
+          <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzRpNXVqZzAwMGlodTZrZmhrdGcxZXQ3ZDMgYTNiYTI3NDhiYTMyNTJiZjc2Yjg1Y2JhY2Q2OGFlMDE1NjQ5NGExODM2MDFkMjAxYWM1OTFkYWQ5ZmE2OTRlMkBn&tmsrc=a3ba2748ba3252bf76b85cbacd68ae0156494a183601d201ac591dad9fa694e2%40group.calendar.google.com" target="_blank">
+            <button type="button">Agendar</button>
+          </a>
+        </div>
+  
+        <div class="hora"> 
+          <p class="texto1">Hora</p>
+          <p class="texto2"> 21:30 </p>
+          <p class="textov1">Se ruega puntualidad… <br> No quisiéramos que<br> te
+            pierdas de nada!
+            </p>
+          <p class="contador">
+            <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="5148216" class="tickcounter" style="display:block; left:0; width:60%; height:0; position:relative; padding-bottom:25%; margin:0 auto;" title="My countdown" href="//www.tickcounter.com/"></a>
+          </p>
+        </div>
+  
+        <div class="lugar">
+         
+          <p class="texto1">Lugar</p>
+          <p class="texto2">La Nueva Recova</p>
+          <a href="https://maps.app.goo.gl/snLgbXpGexwMoqRZ6" target="_blank">
+            <button type="button">Ir a Google Maps</button>
+          </a>
+        </div>
+
+        <div class="hora"> 
+          <p class="texto1">Last time to Access</p>
+          <p class="texto2"> 22:30 hs</p>         
+        </div>
+  
+        <div class="dresscode">
+          <p class="texto1">Dress Code</p>
+          <p class="texto2">Etiqueta</p>
+          <p class="textov2"> Hacé click para inspirarte <br> y tener una idea más clara
+          </p>
+          <a href="https://ar.pinterest.com/" target="_blank">
+            <button type="button">Ver Tablero</button>
+          </a>
+        </div>
+
+        <div class="cancion">
+          <div class="caja">
+            <img alt="gif de nota musical" src="./img/musica-icono.gif">
+          </div>
+          <p class="texto2">¿Cuál es la canción <br> que no puede faltar <br> en la playlist de la fiesta?</p>
+          <a href="https://forms.gle/wMByVG9ELAHShCA76" target="_blank">
+              <button type="button">Sugerir canción</button>
+          </a>
+        </div>
+
+        <div class="insta">
+          <div class="caja">
+            <img alt="gif estrellas" src="./img/filtro.gif">
+          </div>
+          <p class="texto2">¿Las selfies? ¡Claro!<br>Muchas!<br>Aquí va este filtro bien bonito <br>
+            #15TERE
+          </p>
+          <div class="cajains">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img alt="icono instagram" src="./img/instagram-icono.png">
+            </a>
+          </div>
+        </div>
+  
+        <div class="asistencia">
+          <p class="texto2">¡Me haría <br> muy feliz que estés!</p>
+          <p  class="textov2">Por favor, confirmá tu presencia:</p>
+          <div class="numero">
+            <p>R.S.V.P</p>
+            <img class="rsvp-img" src="./img/RSVP.png" alt="RSVP">
+            <p>+549370421-4208</p>
+          </div>
+
+          <div class="button-wrapper">
+            <div class="confetti-container">
+              <!-- Lienzo -->
+            </div>
+            <button type="button" class="confetti-button" onclick="handleButtonClick()">Confirmar</button>
+          </div>
+          
+
+        </div>
+
+        <div class="despedida">
+          <p class="p1">¡Nos vemos pronto!</p>
+        </div>
+        
+      </div>
+      
+      <audio id="backgroundMusic">
+        <source src="audio/cancion-fondo.mp3" type="audio/mpeg">
+      </audio>
+     
+      <button id="playButton" class="floating-button pulse">
+        <i class="fa-solid fa-music" style="color:  #d1acb3;"></i>
+      </button>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
