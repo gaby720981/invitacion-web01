@@ -80,7 +80,6 @@ z-index: -1;
 }
 
 
-
 .contador {
   display: block;
   position: relative;
@@ -298,7 +297,6 @@ button.clicked {
 #backgroundMusic {
   display: none;
 }
-
 
 @media (min-width: 1200px) {
   body {
