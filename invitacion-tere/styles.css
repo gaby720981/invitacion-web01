@@ -4,14 +4,14 @@
 }
 
 @font-face {
-  font-family: "EB Garamond";
-  src: url('./fonts/EBGaramond-VariableFont_wght.woff');
+  font-family: "Romantic Lovely";
+  src: url('./fonts/Romantic-Lovely.woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Romantic Couple";
-  src: url('./fonts/Romantic-Couple.woff');
+  font-family: "Playfair Display";
+  src: url('./fonts/PlayfairDisplay-Regular.woff');
   font-display: swap;
 }
 
@@ -113,18 +113,21 @@ z-index: -1;
 
  .texto2, .textov1, .textov2, .numero {
   color: var(--color-secundario);
-  font-family: "EB Garamond";
+  font-family: "Playfair Display";
 }
 
 .texto1 {
   color: var(--color-primario);
-   font-size: 12vw;
-   font-family: "EB Garamond";
-   margin-bottom: 5px;
+   font-size: 15vw;
+   font-family: "Romantic Lovely";
+   margin: 0;
+   
 }
 
 .texto2 {
-  font-size: 9vw;
+  font-size: 8vw;
+  margin: 0;
+
 }
 
 .textov1 {
@@ -256,7 +259,7 @@ button {
 }
 
 .p1 {
-  font-family: Romantic Couple;
+  font-family: "Romantic Lovely";
   font-size: 15vw;
   margin: 0;
 }
