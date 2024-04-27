@@ -33,10 +33,21 @@ backgroundMusic.addEventListener('ended', () => {
 });
 
 function updatePlayButtonState() {
-  const playIcon = playButton.querySelector('i');
-  playIcon.className = isMusicPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play';
-  playIcon.style.color = '#d1acb3';
+  const playIcon = playButton.querySelector('img');
+  const playText = playButton.querySelector('.play');
+  
+  if (isMusicPlaying) {
+    playIcon.src = './img/pause.png';
+    playIcon.style.width = '30%'; 
+    playIcon.style.height = '60%'; 
+    playIcon.style.marginRight = '1px';
+    playText.style.display = 'none';
+  } else {
+    playIcon.src = './img/play.png';
+    playText.style.display = 'inline-block';
+  }
 }
+
 
 
 //color clickeado
