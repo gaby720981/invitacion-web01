@@ -38,8 +38,8 @@ function updatePlayButtonState() {
   
   if (isMusicPlaying) {
     playIcon.src = './img/pause.png';
-    playIcon.style.width = '30%'; 
-    playIcon.style.height = '60%'; 
+    playIcon.style.width = '20%'; 
+    playIcon.style.height = '20%'; 
     playIcon.style.marginRight = '1px';
     playText.style.display = 'none';
   } else {
