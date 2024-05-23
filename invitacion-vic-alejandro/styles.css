@@ -99,7 +99,7 @@
   }
   
   .textov2 {
-    font-size: 6vw;
+    font-size: 4vw;
     line-height: 1.3;
   }
   
@@ -246,6 +246,7 @@
   }
 
   .numero {
+    font-size: 4vw;
     color: var(--color-primario);
     display: flex;
     flex-direction: row;
@@ -306,7 +307,7 @@
   
   .imagen-despedida{
     width: 90vw;
-    height: 100%;
+    height: 90%;
     margin-bottom: 30px;
   }
   
