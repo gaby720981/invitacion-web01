@@ -146,8 +146,8 @@ z-index: -1;
 }
 
 .cajains img {
-  width: 17vw;
-  height: 17vw;
+  width: 15vw;
+  height: 15vw;
   margin-top: 5vw;
 }
 
@@ -165,17 +165,6 @@ z-index: -1;
   height: 40px;
   width: 250px;
 }
-
-/* .numero p {
-  margin: 0;
-  padding: 0;
-}
-
-.rsvp-img {
-  width: 5vw;
-  height: 5vw;
-  margin: 0 20px;
-} */
 
 .confetti-container {
   position: absolute;
@@ -206,14 +195,13 @@ button {
   text-align: center
 }
 
-
-/* button.clicked {
+button.clicked {
   background-color: var(--color-primario);
   color:var(--color-primario);
-} */
+}
 
 
-.floating-button {
+/* .floating-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -265,7 +253,7 @@ button {
   100% {
   transform: scale(1);
   }
-} 
+}  */
 
 .despedida {
   margin-top: 200px;

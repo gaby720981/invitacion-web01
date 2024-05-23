@@ -1,9 +1,11 @@
+//Animación
+
 window.sr = ScrollReveal();
 
- sr.reveal('.frase, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta, .tips, .fotos', {
-    duration: 1500,
+ sr.reveal('.inicio, .dia, .hora, .lugar, .dresscode, .asistencia, .cancion, .insta', {
+    duration: 1200,
     origin: 'bottom', // Animación desde abajo
-    distance: '80px' 
+    distance: '100px' 
 });
 sr.reveal('.despedida', {
   duration: 5000,
@@ -42,15 +44,14 @@ function updatePlayButtonState() {
     playIcon.style.height = '20%'; 
     playIcon.style.marginRight = '1px';
     playText.style.display = 'none';
+    playButton.style.backgroundColor = 'transparent';
   } else {
     playIcon.src = './img/play.png';
     playText.style.display = 'inline-block';
   }
 }
 
-
-
-//color clickeado
+//Boton clickeado
 
 document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('button');
@@ -65,19 +66,18 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-//opacidad
+//Opacidad al hacer scroll
 
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
   var video = document.querySelector('.portada');
   var maxOpacity = 0.009; // Ajusta el valor máximo de opacidad
-  var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; // Utiliza Math.pow para aplicar una función no lineal
-
-  video.style.opacity = Math.max(opacity, 0).toFixed(2); // Garantiza que la opacidad no sea inferior a 0
+  var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; 
+  video.style.opacity = Math.max(opacity, 0).toFixed(2); 
 });
 
 
-//efecto confeti
+//efecto confeti y confirmar asistencia
 
 function handleButtonClick() {
   let canvas = document.createElement("canvas");
@@ -92,17 +92,26 @@ function handleButtonClick() {
   confetti_button({
     particleCount: 200, 
     spread: 180,
-    colors: ["#fff"],
+    colors: ["#ffffff"],
     shapes: ["square"]
   });
 
   setTimeout(() => {
-    window.location.href = "https://wa.link/371s5g";
+    window.location.href = "https://wa.link/xedw7e";
   }, 1000);
 }
-     
 
-   
+
+
+
+
+
+
+
+
+
+
+
 
 
 
