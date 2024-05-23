@@ -218,10 +218,14 @@
     margin-top: 5vw;
   }
 
-  .info {
+  .info, .info2 {
     padding: 0.5vw;
-    margin-top: 20vw;
+  
     color: var(--color-secundario);
+  }
+
+  .info2 {
+    margin-top: 40vw;
   }
 
   .info img {
