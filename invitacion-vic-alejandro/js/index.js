@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
   var video = document.querySelector('.portada');
-  var maxOpacity = 0.009; // Ajusta el valor máximo de opacidad
+  var maxOpacity = 0.07; // Ajusta el valor máximo de opacidad
   var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; 
   video.style.opacity = Math.max(opacity, 0).toFixed(2); 
 });
