@@ -40,7 +40,8 @@
 
   body {
     z-index: -2;
-    background-image: url("./img/fondo.jpg");
+    background-image: url("./img/fondo.png");
+
   }
 
   header {
