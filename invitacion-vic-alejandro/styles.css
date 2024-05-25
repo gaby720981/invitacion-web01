@@ -5,6 +5,7 @@
     --color-primario: #ffffff;
     --color-secundario:  #000000;
   }
+
   /*texto*/
   @font-face {
     font-family: "Garamond";
@@ -64,7 +65,8 @@
   }
   
   .content {
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-image: url("./img/fondo.jpg");
     z-index: 1;
   }
   
@@ -220,7 +222,6 @@
 
   .info, .info2 {
     padding: 0.5vw;
-  
     color: var(--color-secundario);
   }
 
@@ -297,7 +298,6 @@
   }
   
   .despedida {
-    /* margin-top: 0px; */
     line-height: 1;
     color: var(--color-primario);
     font-size: 15vw;
@@ -357,7 +357,6 @@
     background-color: transparent;
     transform: scale(1.05);
   }
-  
   
   .pulse {
     animation: pulse 2s infinite;
