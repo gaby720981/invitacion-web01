@@ -297,7 +297,7 @@
   }
   
   .despedida {
-    margin-top: 100px;
+    /* margin-top: 0px; */
     line-height: 1;
     color: var(--color-primario);
     font-size: 15vw;
@@ -311,8 +311,7 @@
   
   .imagen-despedida{
     width: 90vw;
-    height: 90%;
-    margin-bottom: 30px;
+    height: 100%;
   }
   
   .p1 {
