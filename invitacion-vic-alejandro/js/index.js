@@ -70,12 +70,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('scroll', function() {
   var scrollTop = window.scrollY;
-  var video = document.querySelector('.portada');
+  var image = document.querySelector('.portada');
   var maxOpacity = 0.04; // Ajusta el valor máximo de opacidad
   var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; 
-  video.style.opacity = Math.max(opacity, 0).toFixed(2); 
+  if (image) {
+    image.style.opacity = Math.max(opacity, 0); // Asegurarse de que la opacidad no sea negativa
+  }
 });
-
 
 //efecto confeti y confirmar asistencia
 
