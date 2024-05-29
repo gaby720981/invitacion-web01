@@ -74,7 +74,7 @@ document.addEventListener('scroll', function() {
   var maxOpacity = 0.04; // Ajusta el valor máximo de opacidad
   var opacity = 1 - Math.pow(scrollTop / 100, 2) * maxOpacity; 
   if (image) {
-    image.style.opacity = Math.max(opacity, 0); // Asegurarse de que la opacidad no sea negativa
+    image.style.opacity = Math.max(opacity, 0); 
   }
 });
 
