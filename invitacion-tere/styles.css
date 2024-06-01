@@ -1,6 +1,6 @@
 :root {
 	--color-primario:  #d1acb3;
-	--color-secundario:  rgb(145, 144, 144);
+	--color-secundario:  #919090;
 }
 
 @font-face {
@@ -26,10 +26,16 @@ body {
   padding: 0;
 }
 
+body {
+  background-color: #ffffff;
+  z-index: -2;
+}
+
 header {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  z-index: -1;
 }
 
 header::before {
@@ -53,11 +59,6 @@ z-index: -1;
 }
 
 .content {
-  background-color: #ffffff;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  position: relative;
   z-index: 1;
 }
 
@@ -69,12 +70,16 @@ z-index: -1;
   text-align: center;
 }
 
-.dia, .hora, .dresscode, .asistencia, .cancion, .insta {
+.hora, .dresscode, .asistencia, .cancion, .insta {
   padding: 0.5vw;
   margin-top: 50vw;
  
   align-items: center;
   text-align: center;
+}
+
+.dia {
+  margin-top: 20vw;
 }
 
 .contador {
