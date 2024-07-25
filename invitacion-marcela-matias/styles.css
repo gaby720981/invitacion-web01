@@ -1,6 +1,6 @@
 
   :root {
-    --color-primario: #ffffff;
+    --color-primario: #000000;
     --color-secundario:  #000000;
   }
 
@@ -13,8 +13,8 @@
   
    /*titulo*/
   @font-face {
-    font-family: "White Garden";
-    src: url('./fonts/white-garden-regular.woff');
+    font-family: "Best Moment";
+    src: url('./fonts/BestMoment.woff');
     font-display: swap;
   }
 
@@ -37,7 +37,7 @@
   }
 
   body {
-    background-image: url("./img/fondo.png");
+    background-color: #fffbf8;
     z-index: -2;
   }
 
@@ -87,8 +87,8 @@
   
   .texto1 {
     color: var(--color-primario);
-    font-size: 18vw;
-    font-family: "White Garden";
+    font-size: 15vw;
+    font-family: "Best Moment";
     margin-bottom: 5px;
     line-height: 0.8;
   }
@@ -96,6 +96,7 @@
   .texto2 {
     font-size: 7vw;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .textov1 {
@@ -128,8 +129,8 @@
   }
 
   .imagen_inicio {
-    height: 150px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     margin-top: 50px;
   }
 
@@ -284,8 +285,8 @@
   
   button {
     font-family: "Garamond";
-    background-color: var(--color-primario);
-    color: var(--color-secundario);
+    background-color: #d3ac6e;
+    color: #000000;
     font-weight: bold;
     margin-top: 7vw;
     padding: 1.25vw 4vw;
