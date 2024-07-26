@@ -197,6 +197,7 @@
     padding: 5vw;
     margin-top: 20vw;
     margin-bottom: 30vw;
+    text-align: center;
   }
 
   .texto-reg{
@@ -296,8 +297,8 @@
   }
   
   button.clicked {
-    background-color: #d7a4ff;
-    color: #030000;
+    background-color: #000000;
+    color: #ffffff;
   }
   
   .despedida {
