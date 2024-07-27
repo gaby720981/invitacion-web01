@@ -13,17 +13,17 @@
   
    /*titulo*/
   @font-face {
-    font-family: "Best Moment";
-    src: url('./fonts/BestMoment.woff');
+    font-family: "White Garden";
+    src: url('./fonts/white-garden-regular.woff');
     font-display: swap;
   }
 
-   /*frase*/
+   /* 
   @font-face {
     font-family: "Garamond Italic";
     src: url('./fonts/garamond-italic.woff');
     font-display: swap;
-  }
+  } */
   
   * {
     box-sizing: border-box;
@@ -88,7 +88,7 @@
   .texto1 {
     color: var(--color-primario);
     font-size: 15vw;
-    font-family: "Best Moment";
+    font-family: "White Garden";
     margin-bottom: 5px;
     line-height: 0.8;
   }
