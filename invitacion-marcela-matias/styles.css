@@ -112,8 +112,7 @@
     margin-top: 50px;
     height: 100%;
     color: var(--color-primario);
-    
-    font-family: "Garamond Italic";
+ 
     justify-content: center;
   
     display: flex; 
@@ -321,12 +320,12 @@
     height: 100%;
   }
   
-  .p1 {
+  /* .p1 {
     color: var(--color-primario);
     font-family: "White Garden";
     font-size: 19vw;
     margin: 0;
-  }
+  } */
 
   .floating-button {
     display: flex;
@@ -354,7 +353,7 @@
   
   .play {
     color: var(--color-primario);
-    font-family: "Playfair Display";
+    font-family: "Garamond";
     font-size: 0.7em;
     line-height: 1;
     margin: 0;
