@@ -18,10 +18,9 @@ sr.reveal('.despedida', {
 document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('scroll', function() {
     var scrollTop = window.scrollY;
-    console.log(scrollTop); // Para depurar, ver si el scrollTop se está actualizando correctamente
     var image = document.querySelector('.portada');
-    var maxOpacity = 1; // Cambia el valor a 1 para más efecto visible
-    var opacity = 1 - (scrollTop / 500); // Ajusta el divisor para mayor o menor sensibilidad
+    var maxOpacity = 0.04; // Cambia el valor a 1 para más efecto visible
+    var opacity = 1 - (scrollTop / 900); // Ajusta el divisor para mayor o menor sensibilidad
 
     if (image) {
       image.style.opacity = Math.max(opacity, 0); 
