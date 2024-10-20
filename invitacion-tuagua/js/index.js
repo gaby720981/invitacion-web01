@@ -13,7 +13,6 @@ sr.reveal('.despedida', {
   distance: '100px' 
 });
 
-
 //Opacidad al hacer scroll
 document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('scroll', function() {
