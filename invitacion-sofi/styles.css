@@ -307,7 +307,7 @@
     color: var(--color-terciario);
   }
   
-  /* .despedida {
+   .despedida {
     line-height: 1;
     color: var(--color-primario);
     font-size: 15vw;
@@ -318,7 +318,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  } */
+  } 
   
   .imagen-despedida{
     width: 100%;
