@@ -146,7 +146,6 @@
 
   .hora {
     padding: 0.5vw;
-   
     align-items: center;
     text-align: center;
   }
@@ -171,11 +170,14 @@
     height: 13vh;
     width: 100vw;
     align-self: flex-end;
+
+    margin-bottom: 30px;
+
   }
 
   .lugar {
     padding: 0.5vw;
-    margin-top: 30vw;
+    margin-top: 10vw;
     
    
     display: flex;
@@ -212,7 +214,7 @@
   }
 
 .insta{
-  margin-top: 30vw;
+  margin-top: 10vw;
 }
   .insta_filtro, .musica_nota {
     width: 25vw;
@@ -232,7 +234,7 @@
   }
 
   .info2 {
-    margin-top: 20vw;
+    margin-top: 0vw;
     text-align: center;
   }
 
@@ -243,8 +245,8 @@
   
   .asistencia {
     padding: 0.5vw;
-    margin-top: 40vw;
-  
+    margin-top: 10vw;
+    margin-bottom: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,8 +255,8 @@
   .deco2 {
     height: 13vh;
     width: 100vw;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     align-self: center;
   }
 
