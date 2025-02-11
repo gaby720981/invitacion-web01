@@ -311,7 +311,7 @@
     line-height: 1;
     color: var(--color-primario);
     font-size: 15vw;
-    height: 100vh;
+    height: 100%;
     font-family: "White Garden";
   
     display: flex;
