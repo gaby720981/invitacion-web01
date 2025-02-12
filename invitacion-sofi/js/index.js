@@ -98,7 +98,7 @@ function handleButtonClick() {
   });
 
   setTimeout(() => {
-    window.location.href = "https://wa.link/237nkz";
+    window.location.href = "https://wa.link/7o6hor";
   }, 1000);
 }
 
