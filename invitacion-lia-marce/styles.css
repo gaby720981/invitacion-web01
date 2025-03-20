@@ -13,8 +13,8 @@
   
    /*titulo*/
   @font-face {
-    font-family: "White Garden";
-    src: url('./fonts/white-garden-regular.woff');
+    font-family: "Abril";
+    src: url('./fonts/AbrilFatface-Regular.ttf');
     font-display: swap;
   }
 
@@ -88,7 +88,7 @@
   .texto1 {
     color: var(--color-primario);
     font-size: 15vw;
-    font-family: "White Garden";
+    font-family: "Abril";
     margin-bottom: 5px;
     line-height: 0.8;
   }
