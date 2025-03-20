@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta property="og:image" content="https://boda-lia-marce.netlify.app/img/link-preview.png"> -->
+    <meta property="og:title" content="Lia & Marce">
+    <meta property="og:description" content="Te invitamos a nuestra boda">
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/b41e505688.js" crossorigin="anonymous"></script>
+   
+    <title>Lia & Marce</title>
+   
+  </head>
+
+  <body>
+    <header>
+      <img class="portada" src="./img/PORTADA.png" >
+    </header>
+
+    <div class="content">
+      <div class="container">
+          <img class="imagen_inicio" src="./img/FRASE.png">
+        </div>
+
+
+        <div class="dia">
+          <p class="texto1">Día</p>
+          <p class="texto2"> 26.04.2025</p>
+          <a href="https://calendar.google.com">
+            <button type="button">Agendar</button>
+          </a>
+        </div>
+
+        <div class="lugar">
+          <p class="texto1">Ceremonia<br>Religiosa</p>
+          <p class="texto2">Parroquia Maria Madre de la Iglesia</p>
+          <a href="https://maps.app.goo.gl/ee9Vg6qGm8pZb54u6" target="_blank">
+            <button type="button">Ir a Google Maps</button>
+          </a>
+        </div>
+  
+        <div class="hora"> 
+          <p class="texto1">Hora</p>
+          <p class="texto2"> 20:00 </p>
+          <p class="textov1">Se ruega puntualidad… <br> ¡No quisiéramos <br> que te
+            pierdas de nada!
+            </p>
+          <p class="contador">
+            <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="6911795" class="tickcounter" style="display:block; left:0; width:80%; height:0; position:relative; padding-bottom:20%; margin:0 auto;" title="My countdown" href="//www.tickcounter.com/">My countdown</a>          </p>
+        </div>
+  
+        <div class="lugar">
+          <!-- <img class="deco1" src="./img/deco1.png"> -->
+          <p class="texto1">¡Party!</p>
+          <p class="texto2">Salón Alesa</p>
+          <a href="https://maps.app.goo.gl/hVWYAXPPmec2RWEo8" target="_blank">
+            <button type="button">Ir a Google Maps</button>
+          </a>
+        </div>
+
+     
+  
+        <div class="dresscode">
+          <p class="texto1">Dress Code</p>
+          <p class="texto2">Elegante<br> <br> ¡Prepárense para una boda llena de colores, acá todos pensamos ponernos muy bonitos! <br> <br>
+            Dejen los colores: blanco, beige, champagne para la novia. <br>
+
+            <img class="imagen_inicio" src="./img/dresscode.png">
+
+            
+          <!-- <p class="textov2">Hacé click para inspirarte <br> y tener una idea más clara
+          </p> -->
+          <!-- <a href="" target="_blank">
+            <button type="button">Ver tablero</button>
+          </a> -->
+        </div>
+
+        <div class="asistencia">
+          <!-- <img class="deco2" src="./img/deco2.png"> -->
+          <p class="texto2">¿Vas a ser parte de <br> nuestra historia de amor?</p>
+          <p class="numero">Por favor, confirmá tu asistencia <br> 
+            antes del 24.03.25 <br> <br> Valor de la tarjeta: $85.000 </p>
+          <img class="numeroimg" src="./img/rsvp.png" alt="">
+
+          <div class="button-wrapper">
+            <div class="confetti-container">
+              <!-- Lienzo -->
+            </div>
+            <button type="button" class="confetti-button" onclick="handleButtonClick()">Confirmar</button>
+          </div>
+          <br>
+          <img class="imagen_inicio" src="./img/DATOS_BANCARIOS.png">
+        </div>
+        
+         <div class="regalo">
+          <img class="imagen_regalo" src="./img/corazón.png" >
+          <p class="texto-reg">Esperamos contar con Uds. en nuestra boda
+            y a los niños les deseamos dulces sueños en casa. <br><br>
+            ¡Queremos que se diviertan tanto como nosotros!
+            
+          </p>
+          <!-- <a href="https://wa.link/0wkvo9" target="_blank">
+            <button type="button">Enviar</button>
+          </a> -->
+        </div> 
+
+        
+        <div class="insta">
+          <img class="insta_filtro" src="./img/fotos.png">
+          <p class="texto2">Compartí tus fotos <br> del evento acá <br> <br>
+            Lia & Marce
+          </p>
+          <a href="https://photos.app.goo.gl/dK5vdyLgTqkA2dXP7" target="_blank">
+            <button type="button">Link Álbum</button>
+          </a>
+          
+        </div>
+
+        <div class="musica">
+            <img class="musica_nota" src="./img/musica-icono.gif">
+          <p class="texto2">¿Cuál es la canción <br> 
+            que no puede faltar <br> 
+            en la playlist de la fiesta?
+          </p>
+          <a href="https://forms.gle/F5Dm9oWCzPRAvL4V6" target="_blank">
+            <button type="button">Sugerir canción</button>
+          </a>
+        </div>
+
+
+        <div class="despedida">
+          <img class="imagen-despedida" src="./img/nos-vemos.png">
+          <!-- <p class="p1">¡Nos vemos <br> pronto!</p> -->
+        </div>
+        
+      </div>
+
+      <audio id="backgroundMusic">
+        <source src="audio/lose-control.mp3" type="audio/mp3">
+      </audio>
+      
+      <button id="playButton" class="floating-button pulse">
+        <img src="./img/play-button.png">
+        <p class="play">Dale play!</p>
+      </button>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
