@@ -366,8 +366,8 @@
   .play {
     color: var(--color-primario);
     font-family: "fuente2";
-    font-size: 0.7em;
-    line-height: 1;
+    font-size: 0.8em;
+    line-height: 0.9;
     margin: 0;
   }
   
