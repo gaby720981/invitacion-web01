@@ -46,7 +46,7 @@
 
   header {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     z-index: -1;
   }
@@ -170,7 +170,7 @@
   }
   
   .deco1 {
-    height: 13vh;
+    height: 13dvh;
     width: 100vw;
     align-self: flex-end;
   }
@@ -260,7 +260,7 @@
   }
 
   .deco2 {
-    height: 13vh;
+    height: 13dvh;
     width: 100vw;
     margin-top: 150px;
     margin-bottom: 100px;
@@ -318,7 +318,7 @@
     line-height: 1;
     color: var(--color-primario);
     font-size: 15vw;
-    height: 100vh;
+    height: 100dvh;
     font-family: "fuente1";
   
     display: flex;
