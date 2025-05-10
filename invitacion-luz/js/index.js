@@ -93,12 +93,12 @@ function handleButtonClick() {
   confetti_button({
     particleCount: 200, 
     spread: 180,
-    colors: ["#c863a2"],
+    colors: ["#C4863B"],
     shapes: ["square"]
   });
 
   setTimeout(() => {
-    window.location.href = "https://wa.link/";
+    window.location.href = "https://wa.link/gxfkt3";
   }, 1000);
 }
 
