@@ -36,11 +36,14 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    
   }
 
   body {
-    /* background-image: url("./img/fondo.png"); */
-    background-color: var(--color-terciario);
+        background-image: url("./img/fondo.png");
+    background-size: fixed;
+   
+    /* background-color: var(--color-terciario); */
     z-index: -2;
   }
 
