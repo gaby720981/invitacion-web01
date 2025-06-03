@@ -1,21 +1,21 @@
 
   :root {
-    --color-primario: #000000;
-    --color-secundario:  #FBD5CC;
-    --color-terciario: #ffffff;
+    --color-primario: #ffffff; /*texto*/
+    --color-secundario:  #ffffff; /*fondo botones*/
+    --color-terciario: #021E34; /*texto botones*/
   }
 
  /*titulo*/
   @font-face {
     font-family: "fuente1";
-    src: url('./fonts/Aesthero.ttf');
+    src: url('./fonts/segoepr.ttf');
     font-display: swap;
   }
 
   /*texto*/
   @font-face {
     font-family: "fuente2";
-    src: url('./fonts/bodoni-mt-condensed-4.ttf');
+    src: url('./fonts/segoepr.ttf');
     font-display: swap;
   }
   
@@ -93,21 +93,22 @@
   
   .texto1 {
     color: var(--color-primario);
-    font-size: 30vw;
+    font-size: 12vw;
     font-family: "fuente1";
     margin-bottom: 5px;
-    line-height: 0.8;
+    line-height: 1.5;
   }
   
   .texto2 {
-    font-size: 9vw;
+    font-size: 6vw;
     margin: 0;
+    line-height: 1.5;
     
     text-align: center;
   }
   
   .textov1 {
-    font-size: 7vw;
+    font-size: 5vw;
   }
   
   .textov2 {
@@ -212,8 +213,9 @@
   }
 
   .imagen_regalo {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
   }
 
   .alias{
@@ -227,8 +229,8 @@
   margin-top: 30vw;
 }
   .insta_filtro, .musica_nota {
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     margin-bottom: 5vw;
   }
   
@@ -281,7 +283,7 @@
   }
   
   .numeroimg {
-    height: 40px;
+    height: 45px;
     width: 250px;
   }
 
@@ -303,18 +305,18 @@
   button {
     font-family: "fuente2";
     background-color: var(--color-secundario);
-    color: var(--color-primario);
+    color: var(--color-terciario);
     
     margin-top: 7vw;
     padding: 1.25vw 4vw;
-    font-size: 5vw;
+    font-size: 4vw;
     border: none;
     border-radius: 50px;
   }
   
   button.clicked {
-    background-color: var(--color-primario);
-    color: var(--color-terciario);
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
   }
 
   /* .slider */
@@ -412,7 +414,7 @@
   }
   
   .play {
-    color: var(--color-primario);
+    color: var(--color-secundario);
     font-family: "fuente2";
     font-size: 0.8em;
     line-height: 0.9;
