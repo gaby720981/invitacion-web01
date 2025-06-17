@@ -99,7 +99,7 @@ function handleButtonClick() {
   });
 
   setTimeout(() => {
-    window.location.href = "https://wa.link/gxfkt3";
+    window.location.href = "https://web.whatsapp.com/";
   }, 1000);
 }
 
