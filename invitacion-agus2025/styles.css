@@ -239,11 +239,7 @@ header::before {
   font-size: 5vw;
 }
 
-.imagen_regalo {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 10px;
-}
+
 
 .alias {
   width: 100%;
@@ -257,10 +253,11 @@ header::before {
 }
 
 .insta_filtro,
-.musica_nota {
+.musica_nota,
+.imagen_regalo {
   width: 30vw;
   height: 30vw;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
 }
 
 .insta_icono {
