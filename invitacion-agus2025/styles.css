@@ -131,6 +131,15 @@ header::before {
   text-align: center;
 }
 
+.texto2bis{
+  font-family: "fuente1";
+  color: var(--color-primario);
+  font-size: 6vw;
+  margin: 0;
+  line-height: 1.1;
+  text-align: center;
+}
+
 .textov1 {
   font-size: 5vw;
 }
@@ -407,7 +416,7 @@ button.clicked {
 
 .imagen-despedida {
   width: 100vw;
-  height: 100%;
+  height: 90%;
 }
 
 /* .p1 {
