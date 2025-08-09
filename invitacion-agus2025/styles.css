@@ -92,8 +92,8 @@
   }
 
   .textoenpng
-  {height: 90px;
-  width: 25%;}
+  {height: 100px;
+  width: 30%;}
   
   .texto1 {
     color: var(--color-primario);
@@ -104,10 +104,9 @@
   }
   
   .texto2 {
-    font-size: 6vw;
+    font-size: 7vw;
     margin: 0;
-    line-height: 1.5;
-    
+    line-height: 0.5; /*para ajustar los espacio*/
     text-align: center;
   }
   
