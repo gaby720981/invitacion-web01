@@ -91,10 +91,15 @@
     font-family: "fuente2";
   }
 
-  .textoenpng
+  .pngdia
+  {height: 130px;
+  width: 40%;}
+  
+   .pnghora
   {height: 100px;
   width: 30%;}
-  
+
+
   .texto1 {
     color: var(--color-primario);
     font-size: 12vw;
@@ -104,7 +109,7 @@
   }
   
   .texto2 {
-    font-size: 7vw;
+    font-size: 9vw;
     margin: 0;
     line-height: 0.5; /*para ajustar los espacio*/
     text-align: center;
@@ -313,7 +318,7 @@
     
     margin-top: 7vw;
     padding: 1.25vw 4vw;
-    font-size: 4vw;
+    font-size: 6vw;
     border: none;
     border-radius: 50px;
   }
