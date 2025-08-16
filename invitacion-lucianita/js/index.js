@@ -93,14 +93,38 @@ function handleButtonClick() {
   confetti_button({
     particleCount: 200, 
     spread: 180,
-    colors: ["#b4dbc8", "#efb248"],
+    colors: ["#ffffff"],
     shapes: ["square"]
   });
 
   setTimeout(() => {
-    window.location.href = "";
+    window.location.href = "https://wa.link/vwuru5";
   }, 1000);
 }
+
+//slider
+
+// const slider = document.querySelector('.slider');
+// const leftArrow = document.querySelector('.left-arrow');
+// const rightArrow = document.querySelector('.right-arrow');
+
+// let currentIndex = 0;
+
+// function updateSlider() {
+//   slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+// }
+
+// rightArrow.addEventListener('click', () => {
+//   if (currentIndex < 4) currentIndex++; // Máximo 5 imágenes (0 a 4)
+//   else currentIndex = 0; // Vuelve al inicio
+//   updateSlider();
+// });
+
+// leftArrow.addEventListener('click', () => {
+//   if (currentIndex > 0) currentIndex--;
+//   else currentIndex = 4; // Va al final
+//   updateSlider();
+// });
 
 
 
