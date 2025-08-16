@@ -21,7 +21,6 @@
   font-display: swap;
 }
 
-
 /* 
   @font-face {
     font-family: "Garamond Italic";
@@ -63,7 +62,6 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .portada {
@@ -153,9 +151,7 @@ header::before {
   margin-top: 50px;
   height: 100%;
   color: var(--color-primario);
-
   justify-content: center;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,14 +177,12 @@ header::before {
   padding: 0.5vw;
   margin-top: 20vw;
   margin-bottom: 20vw;
-
   align-items: center;
   text-align: center;
 }
 
 .hora {
   padding: 0.5vw;
-
   align-items: center;
   text-align: center;
 }
@@ -218,8 +212,6 @@ header::before {
 .lugar {
   padding: 0.5vw;
   margin-top: 30vw;
-
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,14 +240,11 @@ header::before {
   font-size: 5vw;
 }
 
-
-
 .alias {
   width: 100%;
   height: 100%;
   align-self: center;
 }
-
 
 .insta {
   margin-top: 30vw;
@@ -295,7 +284,6 @@ header::before {
   padding: 0.5vw;
   margin-top: 40vw;
   margin-bottom: 50px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,8 +308,8 @@ header::before {
 }
 
 .numeroimg {
-  height: 65px;
-  width: 350px;
+  height: 50px;
+  width: 280px;
 }
 
 .confetti-container {
@@ -416,7 +404,7 @@ button.clicked {
 
 .imagen-despedida {
   width: 100vw;
-  height: 90%;
+  height: 100%;
 }
 
 /* .p1 {
