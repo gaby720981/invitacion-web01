@@ -17,16 +17,10 @@
 /*texto*/
 @font-face {
   font-family: "fuente2";
-  src: url('./fonts/Montserrat-Regular.ttf');
+  src: url('./fonts/Safira\ March\ Personal\ Use\ Only.ttf');
   font-display: swap;
 }
 
-/* 
-  @font-face {
-    font-family: "Garamond Italic";
-    src: url('./fonts/garamond-italic.woff');
-    font-display: swap;
-  } */
 
 * {
   box-sizing: border-box;
@@ -129,8 +123,8 @@ header::before {
   text-align: center;
 }
 
-.texto2bis{
-  font-family: "fuente1";
+.texto2bis {
+  font-family: "fuente2";
   color: var(--color-primario);
   font-size: 6vw;
   margin: 0;
