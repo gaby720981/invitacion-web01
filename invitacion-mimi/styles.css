@@ -38,13 +38,33 @@ body {
 
 }
 
-body {
-  /* background-image: url("./img/fondo.png"); */
-  background-size: fixed;
-
+/* body {
+  background-image: url("./img/fondo-1.png");
+  background-size: contain;
   background-color: var(--color-terciario);
   z-index: -2;
+} */
+
+body {
+  position: relative;
+  background: none; /* quitamos el fondo directo */
 }
+
+body::before {
+  content: "";
+  position: fixed; /* o absolute si preferís que se mueva con el scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./img/fondo-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4; /* 👈 ajustá la opacidad */
+  z-index: -1; /* para que quede detrás del contenido */
+}
+
 
 header {
   position: relative;
