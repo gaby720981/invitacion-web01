@@ -1,0 +1,439 @@
+:root {
+  --color-primario: #3d321d;
+  /*titulos*/
+  --color-secundario: #3d321d;
+  /*textos*/
+}
+
+/*texto*/
+@font-face {
+  font-family: "Belleza";
+  src: url('./fonts/Belleza-Regular.ttf');
+  font-display: swap;
+}
+
+/*titulo*/
+@font-face {
+  font-family: "Romantic";
+  src: url('./fonts/Romantic-Lovely.ttf');
+  font-display: swap;
+}
+
+/* 
+  @font-face {
+    font-family: "Garamond Italic";
+    src: url('./fonts/garamond-italic.woff');
+    font-display: swap;
+  } */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffff;
+  z-index: -2;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.portada {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.texto2,
+.textov1,
+.textov2,
+.numero {
+  color: var(--color-secundario);
+  font-family: "Belleza";
+}
+
+.texto1 {
+  color: var(--color-primario);
+  font-size: 9vw;
+  font-family: "Romantic";
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.texto2 {
+  font-size: 5vw;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.textov1 {
+  font-size: 6vw;
+}
+
+.textov2 {
+  font-size: 5vw;
+  line-height: 1.3;
+}
+
+.inicio {
+  margin-top: 50px;
+  height: 100%;
+  color: var(--color-primario);
+
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text_inicio {
+  margin: 15px;
+  font-size: 7vw;
+  line-height: 1.3;
+}
+
+.imagen_inicio {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.dia,
+.dresscode,
+.asistencia,
+.musica{
+  padding: 0.5vw;
+  margin-top: 30vw;
+
+  align-items: center;
+  text-align: center;
+}
+
+.hora {
+  margin-top: 50px;
+  padding: 0.5vw;
+  align-items: center;
+  text-align: center;
+}
+
+.contador {
+  display: block;
+  position: relative;
+  padding-bottom: 10%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tickcounter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.lugar {
+  height: 700px;
+  padding: 0.5vw;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+  background-image: url('./img/itinerario.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 20vw;
+}
+
+
+.regalo, .corazon {
+  padding: 5vw;
+  margin-top: 40vw;
+  margin-bottom: 30vw;
+  text-align: center;
+}
+.img-cora {
+  height: 100px;
+  width: 100px;
+}
+
+.imagen_regalo {
+  height: 100px;
+  width: 100px;
+}
+
+.insta {
+  margin-top: 20vw;
+}
+
+.insta_filtro,
+.musica_nota {
+  width: 25vw;
+  height: 25vw;
+  margin-bottom: 5vw;
+}
+
+.insta_icono {
+  width: 15vw;
+  height: 15vw;
+  margin-top: 5vw;
+}
+
+.info,
+.info2 {
+  padding: 0.5vw;
+  color: var(--color-secundario);
+}
+
+.info2 {
+  margin-top: 40vw;
+}
+
+.info img {
+  height: 60px;
+  width: 60px;
+}
+
+.asistencia {
+  padding: 0.5vw;
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.numero {
+  font-size: 5vw;
+  color: var(--color-secundario);
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.numeroimg {
+  height: 40px;
+  width: 220px;
+}
+
+.confetti-container {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.confetti-container canvas {
+  width: 100%;
+  height: 100%;
+}
+.dress{
+  height: 100%;
+  width: 90%;
+}
+
+.banco {
+  height: 100%;
+  width: 90%;
+}
+
+button {
+  font-family: "Belleza";
+  background-color: #a59168;
+  color: #ffff;
+  font-weight: bold;
+  margin-top: 7vw;
+  padding: 1.5vw 4vw;
+  font-size: 5vw;
+  border: none;
+  border-radius: 50px;
+}
+
+.lugar1 {
+  margin-top: 205px;
+  margin-right: 175px;
+  font-size: 2.8vw;
+}
+
+.lugar2 {
+  margin-top: 190px;
+  margin-right: 180px;
+  font-size: 2.8vw;
+}
+
+button.clicked {
+  background-color: #ffffff;
+  color: #3d321d;
+}
+
+.despedida {
+  line-height: 1;
+  color: var(--color-primario);
+  font-size: 15vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagen-despedida {
+  width: 100vw;
+  height: 100%;
+}
+
+/* .p1 {
+    color: var(--color-primario);
+    font-family: "White Garden";
+    font-size: 19vw;
+    margin: 0;
+  } */
+
+.floating-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 4em;
+  height: auto;
+  position: fixed;
+
+  bottom: 1em;
+  right: 0.5em;
+  padding: 0.5em 1em;
+  ;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 3em;
+  cursor: pointer;
+}
+
+.floating-button img {
+  margin-right: 0.5em;
+  width: 30%;
+  height: auto;
+}
+
+.play {
+  color: var(--color-secundario);
+  font-family: "Belleza";
+  font-size: 0.7em;
+  line-height: 1;
+  margin: 0;
+}
+
+.floating-button:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#backgroundMusic {
+  display: none;
+}
+
+
+#backgroundMusic {
+  display: none;
+}
+
+
+/* --- Mostrar solo en móviles / mensaje en desktop --- */
+.mensaje-desktop {
+  display: none;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: "fuente2", sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-primario);
+  background-color: var(--color-terciario);
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Mostrar mensaje en pantallas grandes */
+@media only screen and (min-width: 992px) {
+
+  .content,
+  header,
+  .floating-button {
+    display: none;
+    /* Oculta toda la invitación */
+  }
+
+  .mensaje-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
