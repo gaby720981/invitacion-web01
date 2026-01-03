@@ -1,6 +1,7 @@
 :root {
-  --color-primario: #ee61f2;
-  --color-secundario: #000000;
+  --color-primario: #c36277;
+  --color-secundario: #520a11
+;
   --color-terciario: #ffffff;
 }
 
@@ -14,7 +15,7 @@
 /*texto*/
 @font-face {
   font-family: "fuente2";
-  src: url('./fonts/Fredoka-Medium.ttf');
+  src: url('./fonts/Branch.otf');
   font-display: swap;
 }
 
@@ -38,31 +39,11 @@ body {
 
 }
 
-/* body {
-  background-image: url("./img/fondo-1.png");
+body {
+  background-image: url("./img/fondo.jpg");
   background-size: contain;
   background-color: var(--color-terciario);
   z-index: -2;
-} */
-
-body {
-  position: relative;
-  background: none; /* quitamos el fondo directo */
-}
-
-body::before {
-  content: "";
-  position: fixed; /*absolute para que se mueva con el scroll */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("./img/fondo-1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.4; /* opacidad */
-  z-index: -1; /* para que quede detrás del contenido */
 }
 
 
@@ -122,9 +103,9 @@ header::before {
 }
 
 .texto2 {
-  font-size: 7vw;
+  font-size: 10vw;
   margin: 0;
-
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -161,17 +142,46 @@ header::before {
   width: 100%;
   margin-top: 50px;
 }
-
+.img-dia, .img-hs, .img-lugar {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+ 
+}
+.img-dress {
+  width: 250px;
+  height: 100px;
+}
 .dia,
 .dresscode,
 .musica,
 .insta {
   padding: 0.5vw;
-  margin-top: 20vw;
+  margin-top: 40vw;
   margin-bottom: 20vw;
 
   align-items: center;
   text-align: center;
+}
+
+.img-1{
+  width: 220px;
+  height: 250px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.img-2 {
+  width: 180px;
+  height: 220px;
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+.img-3 {
+  width: 180px;
+  height: 220px;
+  margin-left: 100px;
 }
 
 .hora {
@@ -205,9 +215,7 @@ header::before {
 
 .lugar {
   padding: 0.5vw;
-  margin-top: 30vw;
-
-
+  margin-top: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,21 +273,6 @@ header::before {
   margin-top: 5vw;
 }
 
-.info,
-.info2 {
-  padding: 0.5vw;
-  color: var(--color-secundario);
-}
-
-.info2 {
-  margin-top: 20vw;
-  text-align: center;
-}
-
-.info img {
-  height: 60px;
-  width: 60px;
-}
 
 .asistencia {
   padding: 0.5vw;
@@ -432,7 +425,7 @@ button.clicked {
   right: 0.5em;
   padding: 0.5em 1em;
   ;
-  background-color: var(--color-terciario);
+  background-color: var(--color-primario);
   border: none;
   border-radius: 3em;
   cursor: pointer;
@@ -445,7 +438,7 @@ button.clicked {
 }
 
 .play {
-  color: var(--color-primario);
+  color: var(--color-terciario);
   font-family: "fuente2";
   font-size: 0.8em;
   line-height: 0.9;
@@ -453,7 +446,7 @@ button.clicked {
 }
 
 .floating-button:hover {
-  background-color: transparent;
+  /* background-color: transparent; */
   transform: scale(1.05);
 }
 
