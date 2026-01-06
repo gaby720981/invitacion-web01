@@ -42,11 +42,12 @@ body {
 
 }
 
-body {
-  background-image: url("./img/fondo.png");
-  background-size: contain;
-  z-index: -2;
-}
+  body {
+    background-image: url("./img/fondo.png");
+    background-size: fixed;
+    /* background-color: var(--color-terciario); */
+    z-index: -2;
+  }
 
 
 header {
@@ -146,7 +147,7 @@ header::before {
 }
 .img-dia, .img-hs, .img-lugar {
   width: 200px;
-  height: 100px;
+  height: 80px;
   margin-bottom: 10px;
  
 }
@@ -165,7 +166,6 @@ header::before {
   align-items: center;
   text-align: center;
 }
-
 
 
 .hora {
@@ -190,11 +190,6 @@ header::before {
   height: 100%;
 }
 
-.deco1 {
-  height: 13dvh;
-  width: 100vw;
-  align-self: flex-end;
-}
 
 .lugar {
   padding: 0.5vw;
@@ -205,14 +200,19 @@ header::before {
   text-align: center;
 }
 
-/* .niños{
-    margin-top: 100px;
-  }
+.acces {
+  background-image: url("./img/acces.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 17vw;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  .buena_noche{
-    height: 150px;
-    width: 150px;
-  } */
 
 .regalo {
   padding: 5vw;
@@ -267,13 +267,6 @@ header::before {
   align-items: center;
 }
 
-.deco2 {
-  height: 13dvh;
-  width: 100vw;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  align-self: center;
-}
 
 .numero {
   font-size: 5vw;
@@ -408,7 +401,7 @@ button.clicked {
   right: 0.5em;
   padding: 0.5em 1em;
   ;
-  background-color: var(--color-primario);
+  background-color: var(--color-terciario);
   border: none;
   border-radius: 3em;
   cursor: pointer;
@@ -421,7 +414,7 @@ button.clicked {
 }
 
 .play {
-  color: var(--color-terciario);
+  color: var(--color-primario);
   font-family: "fuente2";
   font-size: 0.8em;
   line-height: 0.9;
