@@ -1,7 +1,7 @@
 :root {
   --color-primario: #000000; /*texto1*/
   --color-secundario: #000000; /*texto2, v1, v2*/
-  --color-terciario: #f2b6ce; /*fondo botones*/
+  --color-terciario: #e9abae; /*fondo botones*/
 }
 
 /*titulo*/
@@ -157,12 +157,19 @@ header::before {
 }
 .dia,
 .dresscode,
-.musica,
 .insta {
   padding: 0.5vw;
   margin-top: 40vw;
   margin-bottom: 20vw;
 
+  align-items: center;
+  text-align: center;
+}
+
+.musica {
+  padding: 0.5vw;
+  margin-top: 20vw;
+  margin-bottom: 20vw;
   align-items: center;
   text-align: center;
 }
