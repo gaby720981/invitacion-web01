@@ -145,12 +145,18 @@ header::before {
   width: 100%;
   margin-top: 50px;
 }
-.img-dia, .img-hs, .img-lugar {
+.img-dia, .img-hs, .img-lugar{
   width: 200px;
   height: 80px;
   margin-bottom: 10px;
  
 }
+
+.img-datos {
+  width: 350px;
+  height: 130px;
+}
+
 .img-dress {
   width: 250px;
   height: 100px;
@@ -395,6 +401,11 @@ button.clicked {
     font-size: 19vw;
     margin: 0;
   } */
+
+.img-info {
+  height: 100%;
+  width: 100%;
+}
 
 .floating-button {
   display: flex;
