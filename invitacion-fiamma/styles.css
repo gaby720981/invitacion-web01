@@ -277,6 +277,19 @@ header::before {
   margin-top: 5vw;
 }
 
+.img-datos {
+  width: 250px;
+  height: 100px;
+}
+
+.img-info {
+  height: 100%;
+  width: 100%;
+}
+
+.info2 {
+  margin-top: 60px;
+}
 
 .asistencia {
   padding: 0.5vw;
