@@ -1,7 +1,7 @@
 :root {
-  --color-primario: #000000; /*texto1*/
-  --color-secundario: #000000; /*texto2, v1, v2*/
-  --color-terciario: #e9abae; /*fondo botones*/
+  --color-primario: #ffffff; /*texto1*/
+  --color-secundario: #ffffff; /*texto2, v1, v2*/
+  --color-terciario: #e34b93; /*fondo botones*/
 }
 
 /*titulo*/
@@ -14,7 +14,7 @@
 /*texto*/
 @font-face {
   font-family: "fuente2";
-  src: url('./fonts/Brandon_med.otf');
+  src: url('./fonts/DelaGothicOne-Regular.ttf');
   font-display: swap;
 }
 
@@ -106,18 +106,18 @@ header::before {
 }
 
 .texto2 {
-  font-size: 8vw;
+  font-size: 6vw;
   margin: 0;
   line-height: 1.2;
   text-align: center;
 }
 
 .textov1 {
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 .textov2 {
-  font-size: 6vw;
+  font-size: 5vw;
   line-height: 1.3;
 }
 
@@ -146,8 +146,8 @@ header::before {
   margin-top: 50px;
 }
 .img-dia, .img-hs, .img-lugar{
-  width: 200px;
-  height: 80px;
+  width: 140px;
+  height: 90px;
   margin-bottom: 10px;
  
 }
@@ -215,11 +215,10 @@ header::before {
 }
 
 .acces {
-  background-image: url("./img/acces.png");
+  /* background-image: url("./img/acces.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 17vw;
   margin-top: 40vw;
   display: flex;
   flex-direction: column;
