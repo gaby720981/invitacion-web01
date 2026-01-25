@@ -125,9 +125,7 @@ header::before {
   margin-top: 50px;
   height: 100%;
   color: var(--color-primario);
-
   justify-content: center;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,8 +151,11 @@ header::before {
 }
 
 .img-datos {
-  width: 350px;
-  height: 130px;
+  width: 300px;
+  height: 100px;
+}
+.info2 {
+    margin-top: 40vw;
 }
 
 .img-dress {
@@ -272,7 +273,7 @@ header::before {
 
 .asistencia {
   padding: 0.5vw;
-  margin-top: 30vw;
+  margin-top: 40vw;
   margin-bottom: 40vw;
 
   display: flex;
@@ -286,13 +287,12 @@ header::before {
   color: var(--color-primario);
   display: flex;
   flex-direction: row;
-
   justify-content: center;
   align-items: center;
 }
 
 .numeroimg {
-  height: 40px;
+  height: 45px;
   width: 250px;
 }
 
@@ -317,8 +317,8 @@ button {
   color: var(--color-secundario);
 
   margin-top: 7vw;
-  padding: 1.25vw 4vw;
-  font-size: 5vw;
+  padding: 1.7vw 5vw;
+  font-size: 4vw;
   border: none;
   border-radius: 50px;
 }
