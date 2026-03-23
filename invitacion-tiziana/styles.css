@@ -1,12 +1,16 @@
 :root {
-  --color-primario: #ffffff; /*texto1*/
-  --color-secundario: #f4b74a; /*texto2, v1, v2*/
-  --color-terciario: hsl(254, 89%, 4%); /*fondo botones*/
+  --color-primario: #ffffff; 
+  /*texto1*/
+  --color-secundario: #f4b74a;
+  /*texto2, v1, v2*/
+  --color-terciario: hsl(254, 89%, 4%);
+  /*fondo botones*/
 }
 
 /*titulo*/
 @font-face {
-  font-family: "fuente1";  /*texto1*/
+  font-family: "fuente1";
+  /*texto1*/
   src: url('./fonts/Brandon_med.otf');
   font-display: swap;
 }
@@ -42,14 +46,14 @@ body {
 
 }
 
-  body {
-    background-image: url("./img/fondo.png");
-    background-attachment: fixed;
-     background-size: cover; 
-     background-position: center;
-    /* background-color: var(--color-terciario); */
-    z-index: -2;
-  }
+body {
+  background-image: url("./img/fondo.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* background-color: var(--color-terciario); */
+  z-index: -2;
+}
 
 
 header {
@@ -145,18 +149,20 @@ header::before {
   width: 100%;
   margin-top: 50px;
 }
-.img-dia{
+
+.img-dia {
   width: 120px;
   height: 70px;
   margin-bottom: 10px;
 }
 
-.img-hs{
+.img-hs {
   width: 120px;
   height: 60px;
   margin-bottom: 10px;
 }
-.img-lugar{
+
+.img-lugar {
   width: 140px;
   height: 60px;
   margin-bottom: 10px;
@@ -166,14 +172,16 @@ header::before {
   width: 300px;
   height: 100px;
 }
+
 .info2 {
-    margin-top: 40vw;
+  margin-top: 40vw;
 }
 
 .img-dress {
   width: 240px;
   height: 60px;
 }
+
 .dia,
 .dresscode,
 .insta {
@@ -207,6 +215,15 @@ header::before {
   padding-bottom: 10%;
   width: 100%;
   margin: 0 auto;
+}
+
+.marco {
+  position: absolute;
+  top: 370px;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 1;
 }
 
 .tickcounter {
@@ -494,10 +511,12 @@ button.clicked {
 
 /* Mostrar mensaje en pantallas grandes */
 @media only screen and (min-width: 992px) {
+
   .content,
   header,
   .floating-button {
-    display: none; /* Oculta toda la invitación */
+    display: none;
+    /* Oculta toda la invitación */
   }
 
   .mensaje-desktop {
