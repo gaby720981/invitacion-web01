@@ -94,7 +94,7 @@ function handleButtonClick() {
   confetti_button({
     particleCount: 200, 
     spread: 180,
-    colors: ["#ff4791ff"],
+    colors: ["#f4b74a"],
     shapes: ["square"]
   });
 
