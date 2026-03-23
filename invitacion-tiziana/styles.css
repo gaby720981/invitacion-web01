@@ -460,7 +460,7 @@ button.clicked {
 }
 
 .play {
-  color: var(--color-primario);
+  color: var(--color-secundario);
   font-family: "fuente2";
   font-size: 0.6em;
   line-height: 0.9;
