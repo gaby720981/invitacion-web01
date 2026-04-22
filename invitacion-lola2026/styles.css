@@ -252,6 +252,12 @@ header::before {
   align-self: center;
 }
 
+.opciones {
+  background-color: #e34b93;
+  padding: 15px;
+  font-size: 4vw;
+}
+
 
 .insta {
   margin-top: 10vw;
