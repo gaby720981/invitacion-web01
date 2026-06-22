@@ -355,7 +355,7 @@ button {
   margin-top: 7vw;
   padding: 1.25vw 4vw;
   font-size: 5vw;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50px;
 }
 
@@ -444,9 +444,8 @@ button.clicked {
   bottom: 1em;
   right: 0.5em;
   padding: 0.5em 1em;
-  ;
-  background-color: var(--color-primario);
-  border: none;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 3em;
   cursor: pointer;
 }
@@ -458,7 +457,7 @@ button.clicked {
 }
 
 .play {
-  color: var(--color-terciario);
+  color: var(--color-primario);
   font-family: "fuente2";
   font-size: 0.8em;
   line-height: 0.9;
