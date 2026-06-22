@@ -348,12 +348,14 @@ header::before {
 
 button {
   font-family: "fuente2";
-  background-color: var(--color-primario);
-  color: var(--color-terciario);
+  background-color: transparent; ;
+
+  color: var(--color-primario);
+
   margin-top: 7vw;
   padding: 1.25vw 4vw;
   font-size: 5vw;
-  border: none;
+  border: 2px solid white;
   border-radius: 50px;
 }
 
