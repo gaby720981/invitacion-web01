@@ -102,9 +102,10 @@ header::before {
 }
 
 .texto2-number {
-   color: var(--color-secundario);
+  color: var(--color-secundario);
   font-family: "fuente1";
   font-size: 10vw;
+  margin: 0;
 }
 
 .texto1 {
@@ -159,7 +160,6 @@ header::before {
 .img-lugar {
   width: 180px;
   height: 80px;
-  margin-bottom: 10px;
 }
 
 .img-dress {
@@ -178,13 +178,29 @@ header::before {
 .musica,
 .insta {
   padding: 0.5vw;
-  margin-top: 40vw;
-  margin-bottom: 20vw;
+  margin-bottom: 40vw;
   align-items: center;
   text-align: center;
 }
 
-.img-1 {
+.hora {
+  margin-bottom: 40vw;
+  padding: 0.5vw;
+  align-items: center;
+  text-align: center;
+}
+
+.lugar {
+  padding: 0.5vw;
+  margin-bottom: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* .img-1 {
   width: 220px;
   height: 250px;
   margin-left: 20px;
@@ -202,13 +218,7 @@ header::before {
   width: 180px;
   height: 220px;
   margin-left: 100px;
-}
-
-.hora {
-  padding: 0.5vw;
-  align-items: center;
-  text-align: center;
-}
+} */
 
 .contador {
   display: block;
@@ -232,14 +242,6 @@ header::before {
   align-self: flex-end;
 }
 
-.lugar {
-  padding: 0.5vw;
-  margin-top: 20vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
 /* .niños{
     margin-top: 100px;
@@ -274,10 +276,6 @@ header::before {
   align-self: center;
 }
 
-.insta {
-  margin-top: 10vw;
-}
-
 .insta-icono,
 .musica-nota {
   width: 20vw;
@@ -302,8 +300,8 @@ header::before {
 
 .asistencia {
   padding: 0.5vw;
-  margin-top: 40vw;
-  margin-bottom: 40vw;
+  margin-top: 30vw;
+  margin-bottom: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
