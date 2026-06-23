@@ -7,7 +7,7 @@
 /*titulo*/
 @font-face {
   font-family: "fuente1";
-  src: url('./fonts/Baskervville-Regular.ttf');
+  src: url('./fonts/baskerville-old-face.ttf');
   font-display: swap;
 }
 
@@ -155,16 +155,24 @@ header::before {
   margin-top: 50px;
 } */
 
-.img-dia,
-.img-hs,
+.img-dia {
+  width: 120px;
+  height: 65px;
+}
+
+.img-hs {
+  width: 160px;
+  height: 60px;
+}
+
 .img-lugar {
-  width: 180px;
-  height: 80px;
+  width: 170px;
+  height: 60px;
 }
 
 .img-dress {
-  width: 250px;
-  height: 90px;
+  width: 245px;
+  height: 50px;
 }
 
 .paleta-dress {
